@@ -5,7 +5,7 @@ import remarkHtml from "remark-html";
 
 async function getFindings(): Promise<string> {
   // In static export, we read the file at build time
-  const mdPath = join(process.cwd(), "..", "findings.md");
+  const mdPath = join(process.cwd(), "findings.md");
   const content = readFileSync(mdPath, "utf-8");
   const result = await remark().use(remarkHtml, { sanitize: false }).process(content);
   return result.toString();
