@@ -1,0 +1,22 @@
+{
+  "total": 1224,
+  "site_live": 937,
+  "shuttered": 100,
+  "mean_drift": 0.408,
+  "zone_counts": {
+    "Low-Priority": 255,
+    "Green": 443,
+    "Yellow": 321,
+    "Red": 204,
+    "Unknown": 1
+  },
+  "batches": [
+    "Fall 2024",
+    "Fall 2025",
+    "Spring 2025",
+    "Summer 2024",
+    "Summer 2025",
+    "Winter 2024",
+    "Winter 2025"
+  ]
+}

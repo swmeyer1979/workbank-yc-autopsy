@@ -1,0 +1,15 @@
+pandas
+pyarrow
+numpy
+scipy
+scikit-learn
+lifelines
+statsmodels
+matplotlib
+seaborn
+tqdm
+requests
+beautifulsoup4
+sentence-transformers
+anthropic
+jupytext
