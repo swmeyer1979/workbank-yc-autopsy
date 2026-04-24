@@ -1,0 +1,845 @@
+Task ID,Occupation (O*NET-SOC Title),Task,O*NET-SOC Code,desire_mean,desire_n,capability_mean,capability_n,zone
+3226,Advertising and Promotions Managers,"Inspect layouts and advertising copy, and edit scripts, audio, video, and other promotional material for adherence to specifications.",11-2011.00,3.7,10,4.0,4,Green
+3242,Advertising and Promotions Managers,Coordinate with the media to disseminate advertising.,11-2011.00,3.0,5,3.3333333333333335,3,Yellow
+3223,Advertising and Promotions Managers,Prepare budgets and submit estimates for program costs as part of campaign plan development.,11-2011.00,2.9,10,4.0,3,Red
+3243,Advertising and Promotions Managers,Contact organizations to explain services and facilities offered.,11-2011.00,3.1666666666666665,6,2.0,2,Yellow
+3233,Advertising and Promotions Managers,Monitor and analyze sales promotion results to determine cost effectiveness of promotion campaigns.,11-2011.00,3.6666666666666665,6,4.5,2,Green
+3234,Advertising and Promotions Managers,"Read trade journals and professional literature to stay informed on trends, innovations, and changes that affect media planning.",11-2011.00,3.5,6,2.5,2,Yellow
+978,Computer and Information Systems Managers,Review project plans to plan and coordinate project activity.,11-3021.00,3.2,10,2.0,2,Yellow
+969,Computer and Information Systems Managers,"Assign and review the work of systems analysts, programmers, and other computer-related workers.",11-3021.00,3.5,10,2.0,2,Yellow
+971,Computer and Information Systems Managers,"Develop computer information resources, providing for data security and control, strategic computing, and disaster recovery.",11-3021.00,3.6,10,3.0,2,Yellow
+970,Computer and Information Systems Managers,Stay abreast of advances in technology.,11-3021.00,3.3,10,2.5,2,Yellow
+972,Computer and Information Systems Managers,Review and approve all systems charts and programs prior to their implementation.,11-3021.00,2.7,10,2.5,2,Low-Priority
+980,Computer and Information Systems Managers,Prepare and review operational reports or project progress reports.,11-3021.00,3.1818181818181817,11,3.5,2,Green
+979,Computer and Information Systems Managers,Evaluate data processing proposals to assess project feasibility and requirements.,11-3021.00,3.6,10,2.0,2,Yellow
+974,Computer and Information Systems Managers,Control operational budget and expenditures.,11-3021.00,3.7,10,2.0,2,Yellow
+966,Computer and Information Systems Managers,"Manage backup, security and user help systems.",11-3021.00,3.0,10,3.5,2,Green
+21319,Financial Managers,Oversee the flow of cash or financial instruments.,11-3031.00,2.8,5,3.0,2,Low-Priority
+21315,Financial Managers,Evaluate data pertaining to costs to plan budgets.,11-3031.00,2.6666666666666665,6,4.0,2,Red
+21321,Financial Managers,Develop or analyze information to assess the current or future financial status of firms.,11-3031.00,2.5714285714285716,7,4.0,2,Red
+21318,Financial Managers,"Approve, reject, or coordinate the approval or rejection of lines of credit or commercial, real estate, or personal loans.",11-3031.00,3.0,3,3.0,2,Yellow
+21320,Financial Managers,"Prepare financial or regulatory reports required by laws, regulations, or boards of directors.",11-3031.00,2.5714285714285716,7,4.0,2,Red
+21317,Financial Managers,"Examine, evaluate, or process loan applications.",11-3031.00,2.8,5,4.0,2,Red
+21314,Financial Managers,Prepare operational or risk reports for management analysis.,11-3031.00,3.0,8,4.0,2,Green
+21326,Financial Managers,Review collection reports to determine the status of collections and the amounts of outstanding balances.,11-3031.00,3.25,4,5.0,2,Green
+21329,Financial Managers,Review reports of securities transactions or price lists to analyze market conditions.,11-3031.00,3.0,6,4.5,2,Green
+8870,Treasurers and Controllers,Evaluate needs for procurement of funds and investment of surpluses and make appropriate recommendations.,11-3031.01,2.0,5,3.0,2,Low-Priority
+20168,Treasurers and Controllers,"Monitor financial activities and details, such as cash flow and reserve levels, to ensure that all legal and regulatory requirements are met.",11-3031.01,3.0,9,4.0,3,Green
+8861,Treasurers and Controllers,"Receive, record, and authorize requests for disbursements in accordance with company policies and procedures.",11-3031.01,2.6,5,3.5,4,Red
+8865,Treasurers and Controllers,"Coordinate and direct the financial planning, budgeting, procurement, or investment activities of all or part of an organization.",11-3031.01,2.0,7,3.0,3,Low-Priority
+8867,Treasurers and Controllers,"Analyze the financial details of past, present, and expected operations to identify development opportunities and areas where improvement is needed.",11-3031.01,2.5,8,4.0,3,Red
+8873,Treasurers and Controllers,"Compute, withhold, and account for all payroll deductions.",11-3031.01,3.0,4,4.666666666666667,3,Green
+15415,Quality Control Systems Managers,Review and update standard operating procedures or quality assurance manuals.,11-3051.01,3.4285714285714284,7,4.0,3,Green
+15430,Quality Control Systems Managers,Monitor performance of quality control systems to ensure effectiveness and efficiency.,11-3051.01,3.125,8,4.333333333333333,3,Green
+15414,Quality Control Systems Managers,Review quality documentation necessary for regulatory submissions and inspections.,11-3051.01,3.25,4,4.333333333333333,3,Green
+15428,Quality Control Systems Managers,Analyze quality control test results and provide feedback and interpretation to production management or staff.,11-3051.01,2.5,6,5.0,2,Red
+15424,Quality Control Systems Managers,"Direct the tracking of defects, test results, or other regularly reported quality control data.",11-3051.01,4.5,4,5.0,2,Green
+15416,Quality Control Systems Managers,"Produce reports regarding nonconformance of products or processes, daily production quality, root cause analyses, or quality trends.",11-3051.01,2.8,5,3.0,3,Low-Priority
+15427,Quality Control Systems Managers,"Communicate quality control information to all relevant organizational departments, outside vendors, or contractors.",11-3051.01,2.8,5,3.0,3,Low-Priority
+15425,Quality Control Systems Managers,Create and implement inspection and testing criteria or procedures.,11-3051.01,3.0,4,2.3333333333333335,3,Yellow
+15423,Quality Control Systems Managers,"Document testing procedures, methodologies, or criteria.",11-3051.01,2.8333333333333335,6,5.0,2,Red
+15456,Biofuels Production Managers,"Review logs, datasheets, or reports to ensure adequate production levels or to identify abnormalities with biofuels production equipment or processes.",11-3051.03,2.6,5,4.0,2,Red
+15458,Biofuels Production Managers,"Monitor meters, flow gauges, or other real-time data to ensure proper operation of biofuels production equipment, implementing corrective measures as needed.",11-3051.03,4.0,5,2.5,2,Yellow
+15461,Biofuels Production Managers,"Adjust temperature, pressure, vacuum, level, flow rate, or transfer of biofuels to maintain processes at required levels.",11-3051.03,3.6666666666666665,3,4.5,2,Green
+15460,Biofuels Production Managers,"Approve proposals for the acquisition, replacement, or repair of biofuels processing equipment or the implementation of new production processes.",11-3051.03,4.0,4,4.0,2,Green
+15457,Biofuels Production Managers,Prepare and manage biofuels plant or unit budgets.,11-3051.03,3.75,4,3.6666666666666665,3,Green
+15459,Biofuels Production Managers,"Conduct cost, material, and efficiency studies for biofuels production plants or operations.",11-3051.03,3.6666666666666665,3,4.0,2,Green
+1021,Purchasing Managers,"Locate vendors of materials, equipment or supplies, and interview them to determine product availability and terms of sales.",11-3061.00,2.0,10,2.6666666666666665,3,Low-Priority
+1033,Purchasing Managers,Prepare bid awards requiring board approval.,11-3061.00,3.2857142857142856,7,4.0,2,Green
+1025,Purchasing Managers,Review purchase order claims and contracts for conformance to company policy.,11-3061.00,3.7,10,4.333333333333333,3,Green
+1031,Purchasing Managers,"Review, evaluate, and approve specifications for issuing and awarding bids.",11-3061.00,3.6,5,4.0,2,Green
+1035,Purchasing Managers,Administer online purchasing systems.,11-3061.00,2.5,8,5.0,2,Red
+1022,Purchasing Managers,Prepare and process requisitions and purchase orders for supplies and equipment.,11-3061.00,2.3,10,2.6666666666666665,3,Low-Priority
+1026,Purchasing Managers,Analyze market and delivery systems to assess present and future material availability.,11-3061.00,2.9,10,4.0,3,Red
+1020,Purchasing Managers,Maintain records of goods ordered and received.,11-3061.00,2.8,10,4.5,2,Red
+20942,Supply Chain Managers,"Determine appropriate equipment and staffing levels to load, unload, move, or store materials.",11-3071.04,3.6666666666666665,6,3.0,2,Yellow
+20943,Supply Chain Managers,"Manage activities related to strategic or tactical purchasing, material requirements planning, controlling inventory, warehousing, or receiving.",11-3071.04,3.1666666666666665,6,3.6666666666666665,3,Green
+15680,Supply Chain Managers,Select transportation routes to maximize economy by combining shipments or consolidating warehousing and distribution.,11-3071.04,4.0,4,4.333333333333333,3,Green
+15700,Supply Chain Managers,"Develop procedures for coordination of supply chain management with other functional areas, such as sales, marketing, finance, production, or quality assurance.",11-3071.04,2.3333333333333335,6,3.0,3,Low-Priority
+15696,Supply Chain Managers,"Analyze inventories to determine how to increase inventory turns, reduce waste, or optimize customer service.",11-3071.04,3.8333333333333335,6,4.0,3,Green
+15697,Supply Chain Managers,Analyze information about supplier performance or procurement program success.,11-3071.04,2.75,4,4.0,3,Red
+20945,Supply Chain Managers,Monitor suppliers' activities to assess performance in meeting quality or delivery requirements.,11-3071.04,2.6666666666666665,3,4.0,2,Red
+20946,Supply Chain Managers,Monitor forecasts and quotas to identify changes and predict effects on supply chain activities.,11-3071.04,3.8,5,3.5,2,Green
+15691,Supply Chain Managers,"Document physical supply chain processes, such as workflows, cycle times, position responsibilities, or system flows.",11-3071.04,3.5,4,4.0,2,Green
+985,Human Resources Managers,"Provide current and prospective employees with information about policies, job duties, working conditions, wages, opportunities for promotion, and employee benefits.",11-3121.00,3.1,10,5.0,2,Green
+982,Human Resources Managers,"Administer compensation, benefits, and performance management systems, and safety and recreation programs.",11-3121.00,4.0,10,2.5,2,Yellow
+994,Human Resources Managers,Analyze statistical data and reports to identify and determine causes of personnel problems and develop recommendations for improvement of organization's personnel policies and practices.,11-3121.00,2.4,10,2.6666666666666665,3,Low-Priority
+993,Human Resources Managers,"Maintain records and compile statistical reports concerning personnel-related data such as hires, transfers, performance appraisals, and absenteeism rates.",11-3121.00,3.1,10,5.0,3,Green
+1002,Human Resources Managers,"Develop, administer, and evaluate applicant tests.",11-3121.00,3.1,10,3.5,2,Green
+49,Medical and Health Services Managers,"Develop and maintain computerized record management systems to store and process data, such as personnel activities and information, and to produce reports.",11-9111.00,3.4,10,5.0,2,Green
+51,Medical and Health Services Managers,"Conduct and administer fiscal operations, including accounting, planning budgets, authorizing expenditures, establishing rates for services, and coordinating financial reporting.",11-9111.00,3.3,10,3.6666666666666665,3,Green
+55,Medical and Health Services Managers,"Maintain awareness of advances in medicine, computerized diagnostic and treatment equipment, data processing technology, government regulations, health insurance changes, and financing options.",11-9111.00,2.3,10,4.0,2,Red
+52,Medical and Health Services Managers,"Establish work schedules and assignments for staff, according to workload, space, and equipment availability.",11-9111.00,3.6,10,3.5,2,Green
+61,Medical and Health Services Managers,Review and analyze facility activities and data to aid planning and cash and risk management and to improve service utilization.,11-9111.00,2.9,10,2.3333333333333335,3,Low-Priority
+57,Medical and Health Services Managers,"Prepare activity reports to inform management of the status and implementation plans of programs, services, and quality initiatives.",11-9111.00,2.8,10,3.0,3,Low-Priority
+15612,Clinical Research Coordinators,"Schedule subjects for appointments, procedures, or inpatient stays as required by study protocols.",11-9121.01,3.1,10,1.5,2,Yellow
+15595,Clinical Research Coordinators,"Prepare study-related documentation, such as protocol worksheets, procedural manuals, adverse event reports, institutional review board documents, or progress reports.",11-9121.01,2.7,10,3.0,2,Low-Priority
+15594,Clinical Research Coordinators,Record adverse event and side effect data and confer with investigators regarding the reporting of events to oversight agencies.,11-9121.01,2.4,10,2.6666666666666665,3,Low-Priority
+15614,Clinical Research Coordinators,"Maintain required records of study activity including case report forms, drug dispensation records, or regulatory forms.",11-9121.01,3.3,10,4.5,2,Green
+15593,Clinical Research Coordinators,"Review proposed study protocols to evaluate factors such as sample collection processes, data management plans, or potential subject risks.",11-9121.01,2.4,10,2.3333333333333335,3,Low-Priority
+15608,Clinical Research Coordinators,"Collaborate with investigators to prepare presentations or reports of clinical study procedures, results, and conclusions.",11-9121.01,2.8,10,3.5,2,Red
+15592,Clinical Research Coordinators,Track enrollment status of subjects and document dropout information such as dropout causes and subject contact efforts.,11-9121.01,2.9,10,3.0,3,Low-Priority
+15609,Clinical Research Coordinators,"Code, evaluate, or interpret collected study data.",11-9121.01,2.8,10,4.0,2,Red
+15600,Clinical Research Coordinators,Maintain contact with sponsors to schedule and coordinate site visits or to answer questions about issues such as incomplete data.,11-9121.01,2.9,10,3.0,2,Low-Priority
+15598,Clinical Research Coordinators,Order drugs or devices necessary for study completion.,11-9121.01,3.3,10,4.5,2,Green
+15607,Clinical Research Coordinators,Communicate with laboratories or investigators regarding laboratory findings.,11-9121.01,3.4,10,2.0,3,Yellow
+15583,Clinical Research Coordinators,"Review scientific literature, participate in continuing education activities, or attend conferences and seminars to maintain current knowledge of clinical studies affairs and issues.",11-9121.01,2.1,10,2.25,4,Low-Priority
+15590,Clinical Research Coordinators,Contact industry representatives to ensure equipment and software specifications necessary for successful study completion.,11-9121.01,3.2222222222222223,9,2.3333333333333335,3,Yellow
+15584,Clinical Research Coordinators,Register protocol patients with appropriate statistical centers as required.,11-9121.01,4.0,4,4.0,2,Green
+18037,Regulatory Affairs Managers,"Review all regulatory agency submission materials to ensure timeliness, accuracy, comprehensiveness, or compliance with regulatory standards.",11-9199.01,3.142857142857143,7,2.6666666666666665,3,Yellow
+18022,Regulatory Affairs Managers,"Direct the preparation and submission of regulatory agency applications, reports, or correspondence.",11-9199.01,3.0,7,2.6666666666666665,3,Yellow
+18030,Regulatory Affairs Managers,"Maintain current knowledge of relevant regulations, including proposed and final rules.",11-9199.01,3.7142857142857144,7,1.5,2,Yellow
+18038,Regulatory Affairs Managers,Review materials such as marketing literature or user manuals to ensure that regulatory agency requirements are met.,11-9199.01,3.3333333333333335,3,3.3333333333333335,3,Yellow
+18032,Regulatory Affairs Managers,Monitor emerging trends regarding industry regulations to determine potential impacts on organizational processes.,11-9199.01,4.0,4,2.6666666666666665,3,Yellow
+1146,"Purchasing Agents, Except Wholesale, Retail, and Farm Products",Monitor and follow applicable laws and regulations.,13-1023.00,2.6666666666666665,9,3.6666666666666665,3,Red
+1143,"Purchasing Agents, Except Wholesale, Retail, and Farm Products","Prepare purchase orders, solicit bid proposals, and review requisitions for goods and services.",13-1023.00,3.0,10,3.0,3,Yellow
+1145,"Purchasing Agents, Except Wholesale, Retail, and Farm Products","Analyze price proposals, financial reports, and other data and information to determine reasonable prices.",13-1023.00,3.125,8,4.0,2,Green
+1151,"Purchasing Agents, Except Wholesale, Retail, and Farm Products","Maintain and review computerized or manual records of purchased items, costs, deliveries, product performance, and inventories.",13-1023.00,2.8,10,3.25,4,Low-Priority
+1144,"Purchasing Agents, Except Wholesale, Retail, and Farm Products","Research and evaluate suppliers, based on price, quality, selection, service, support, availability, reliability, production and distribution capabilities, and the supplier's reputation and history.",13-1023.00,2.5714285714285716,7,2.6666666666666665,3,Low-Priority
+1148,"Purchasing Agents, Except Wholesale, Retail, and Farm Products","Monitor shipments to ensure that goods come in on time, and resolve problems related to undelivered goods.",13-1023.00,2.7,10,4.0,2,Red
+1153,"Purchasing Agents, Except Wholesale, Retail, and Farm Products",Study sales records and inventory levels of current stock to develop strategic purchasing programs that facilitate employee access to supplies.,13-1023.00,3.0,8,4.0,3,Green
+1157,"Purchasing Agents, Except Wholesale, Retail, and Farm Products","Write and review product specifications, maintaining a working technical knowledge of the goods or services to be purchased.",13-1023.00,2.7142857142857144,7,2.6666666666666665,3,Low-Priority
+1152,"Purchasing Agents, Except Wholesale, Retail, and Farm Products","Review catalogs, industry periodicals, directories, trade journals, and Internet sites and consult with other department personnel to locate necessary goods and services.",13-1023.00,3.142857142857143,7,3.5,2,Green
+21447,Compliance Officers,"Evaluate applications, records, or documents to gather information about eligibility or liability issues.",13-1041.00,3.5,8,4.0,2,Green
+21449,Compliance Officers,"Prepare reports of activities, evaluations, recommendations, or decisions.",13-1041.00,3.5,8,3.6666666666666665,3,Green
+21457,Compliance Officers,Prepare correspondence to inform concerned parties of licensing decisions or appeals processes.,13-1041.00,4.25,4,4.5,2,Green
+80,Cost Estimators,"Analyze blueprints and other documentation to prepare time, cost, materials, and labor estimates.",13-1051.00,2.2857142857142856,7,3.5,2,Red
+20846,Cost Estimators,Collect historical cost data to estimate costs for current or future products.,13-1051.00,1.8571428571428572,7,4.0,2,Red
+84,Cost Estimators,"Prepare estimates used by management for purposes such as planning, organizing, and scheduling work.",13-1051.00,2.2857142857142856,7,3.3333333333333335,3,Low-Priority
+87,Cost Estimators,Prepare cost and expenditure statements and other necessary documentation at regular intervals for the duration of the project.,13-1051.00,2.857142857142857,7,4.0,2,Red
+18859,Human Resources Specialists,Hire employees and process hiring-related paperwork.,13-1071.00,2.9,10,2.75,4,Low-Priority
+18866,Human Resources Specialists,"Prepare or maintain employment records related to events, such as hiring, termination, leaves, transfers, or promotions, using human resources management system software.",13-1071.00,2.8,10,4.0,2,Red
+18868,Human Resources Specialists,Review employment applications and job orders to match applicants with job requirements.,13-1071.00,3.0,10,3.5,2,Green
+18860,Human Resources Specialists,"Inform job applicants of details such as duties and responsibilities, compensation, benefits, schedules, working conditions, or promotion opportunities.",13-1071.00,2.0,11,3.0,2,Low-Priority
+18857,Human Resources Specialists,Contact job applicants to inform them of the status of their applications.,13-1071.00,2.5,10,5.0,2,Red
+18865,Human Resources Specialists,"Perform searches for qualified job candidates, using sources such as computer databases, networking, Internet recruiting resources, media advertisements, job fairs, recruiting firms, or employee referrals.",13-1071.00,2.9,10,3.0,3,Low-Priority
+18853,Human Resources Specialists,Analyze employment-related data and prepare required reports.,13-1071.00,3.1,10,4.0,3,Green
+21097,Human Resources Specialists,Administer employee benefit plans.,13-1071.00,2.142857142857143,7,2.0,2,Low-Priority
+18869,Human Resources Specialists,"Schedule or administer skill, intelligence, psychological, or drug tests for current or prospective employees.",13-1071.00,2.4444444444444446,9,2.0,2,Low-Priority
+18855,Human Resources Specialists,Conduct reference or background checks on job applicants.,13-1071.00,2.4,10,3.0,3,Low-Priority
+18876,Human Resources Specialists,"Review and evaluate applicant qualifications or eligibility for specified licensing, according to established guidelines and designated licensing codes.",13-1071.00,3.0,3,4.0,2,Green
+15898,Logistics Analysts,Maintain databases of logistics information.,13-1081.02,2.875,8,4.5,2,Red
+20009,Logistics Analysts,"Remotely monitor the flow of vehicles or inventory, using Web-based logistics information systems to track vehicles or containers.",13-1081.02,3.0,6,3.0,2,Yellow
+15889,Logistics Analysts,"Communicate with or monitor service providers, such as ocean carriers, air freight forwarders, global consolidators, customs brokers, or trucking companies.",13-1081.02,2.3333333333333335,6,2.0,2,Low-Priority
+15890,Logistics Analysts,Track product flow from origin to final delivery.,13-1081.02,3.0,6,2.0,2,Yellow
+15903,Logistics Analysts,"Interpret data on logistics elements, such as availability, maintainability, reliability, supply chain management, strategic sourcing or distribution, supplier management, or transportation.",13-1081.02,2.6,5,2.6666666666666665,3,Low-Priority
+15893,Logistics Analysts,Recommend improvements to existing or planned logistics processes.,13-1081.02,2.25,4,3.5,2,Red
+15904,Logistics Analysts,"Apply analytic methods or tools to understand, predict, or control logistics operations or processes.",13-1081.02,4.333333333333333,3,3.0,3,Yellow
+15895,Logistics Analysts,Prepare reports on logistics performance measures.,13-1081.02,3.6666666666666665,3,3.6666666666666665,3,Green
+15883,Logistics Analysts,Enter logistics-related data into databases.,13-1081.02,2.8,5,4.5,2,Red
+15894,Logistics Analysts,"Provide ongoing analyses in areas such as transportation costs, parts procurement, back orders, or delivery processes.",13-1081.02,2.4,5,3.5,2,Red
+15897,Logistics Analysts,"Monitor inventory transactions at warehouse facilities to assess receiving, storage, shipping, or inventory integrity.",13-1081.02,3.0,3,1.5,2,Yellow
+15899,Logistics Analysts,Maintain logistics records in accordance with corporate policies.,13-1081.02,2.8,5,4.0,3,Red
+15902,Logistics Analysts,"Compute reporting metrics, such as on-time delivery rates, order fulfillment rates, or inventory turns.",13-1081.02,2.25,4,4.0,2,Red
+15887,Logistics Analysts,Contact potential vendors to determine material availability.,13-1081.02,1.5,4,4.0,2,Red
+15884,Logistics Analysts,Develop or maintain payment systems to ensure accuracy of vendor payments.,13-1081.02,2.4,5,4.0,2,Red
+15885,Logistics Analysts,Determine packaging requirements.,13-1081.02,2.3333333333333335,3,4.0,2,Red
+7276,Management Analysts,Gather and organize information on problems or procedures.,13-1111.00,3.25,4,4.333333333333333,3,Green
+7277,Management Analysts,Analyze data gathered and develop solutions or alternative methods of proceeding.,13-1111.00,2.8333333333333335,6,4.0,2,Red
+7282,Management Analysts,"Document findings of study and prepare recommendations for implementation of new systems, procedures, or organizational changes.",13-1111.00,2.8,5,4.0,2,Red
+7285,Management Analysts,"Plan study of work problems and procedures, such as organizational change, communications, information flow, integrated production methods, inventory control, or cost analysis.",13-1111.00,2.2,5,3.3333333333333335,3,Low-Priority
+18931,Fundraisers,Write and send letters of thanks to donors.,13-1131.00,3.5,8,4.5,2,Green
+18907,Fundraisers,Create or update donor databases.,13-1131.00,3.6666666666666665,6,4.333333333333333,3,Green
+18912,Fundraisers,Develop strategies to encourage new or increased contributions.,13-1131.00,2.0,4,2.0,3,Low-Priority
+18911,Fundraisers,"Develop or implement fundraising activities, such as annual giving campaigns or direct mail programs.",13-1131.00,3.1666666666666665,6,2.3333333333333335,3,Yellow
+18926,Fundraisers,"Conduct research to identify the goals, net worth, charitable donation history, or other data related to potential donors, potential investors, or general donor markets.",13-1131.00,3.2,5,3.0,3,Yellow
+18919,Fundraisers,Monitor progress of fundraising drives.,13-1131.00,4.0,7,4.0,3,Green
+18932,Fundraisers,Write reports or prepare presentations to communicate fundraising program data.,13-1131.00,3.5,4,3.0,2,Yellow
+18908,Fundraisers,"Design or produce materials such as posters, Web sites, or newsletters to promote, market, or advertise fundraising events.",13-1131.00,3.2857142857142856,7,4.0,3,Green
+18924,Fundraisers,"Write speeches, press releases, or other promotional materials to increase awareness of the causes, missions, or goals of organizations seeking funds.",13-1131.00,2.7142857142857144,7,3.3333333333333335,3,Low-Priority
+18918,Fundraisers,"Monitor budgets, expense reports, or other financial data for fundraising organizations.",13-1131.00,3.5714285714285716,7,4.0,2,Green
+20475,Training and Development Specialists,"Obtain, organize, or develop training procedure manuals, guides, or course materials, such as handouts or visual materials.",13-1151.00,3.5,10,3.6666666666666665,3,Green
+19559,Training and Development Specialists,"Evaluate modes of training delivery, such as in-person or virtual, to optimize training effectiveness, training costs, or environmental impacts.",13-1151.00,2.6666666666666665,6,3.0,3,Low-Priority
+98,Training and Development Specialists,"Monitor, evaluate, or record training activities or program effectiveness.",13-1151.00,3.6,10,2.6666666666666665,3,Yellow
+20474,Training and Development Specialists,"Design, plan, organize, or direct orientation and training programs for employees or customers.",13-1151.00,3.375,8,3.0,3,Yellow
+102,Training and Development Specialists,Develop alternative training methods if expected improvements are not seen.,13-1151.00,2.6666666666666665,6,3.0,3,Low-Priority
+101,Training and Development Specialists,"Evaluate training materials prepared by instructors, such as outlines, text, or handouts.",13-1151.00,3.8,5,3.5,2,Green
+20476,Training and Development Specialists,Monitor training costs and prepare budget reports to justify expenditures.,13-1151.00,3.3333333333333335,6,3.0,3,Yellow
+106,Training and Development Specialists,Devise programs to develop executive potential among employees in lower-level positions.,13-1151.00,2.8,5,2.0,2,Low-Priority
+93,Training and Development Specialists,"Keep up with developments in area of expertise by reading current journals, books, or magazine articles.",13-1151.00,3.6,10,4.0,3,Green
+95,Training and Development Specialists,"Schedule classes based on availability of classrooms, equipment, or instructors.",13-1151.00,4.0,6,4.0,2,Green
+20328,Search Marketing Strategists,Manage tracking and reporting of search-related activities and provide analyses to marketing executives.,13-1161.01,3.1,10,3.6666666666666665,3,Green
+20329,Search Marketing Strategists,"Optimize digital assets, such as text, graphics, or multimedia assets, for search engine optimization (SEO) or for display and usability on internet-connected devices.",13-1161.01,3.5,10,4.0,4,Green
+16192,Search Marketing Strategists,"Collect and analyze Web metrics, such as visits, time on site, page views per visit, transaction volume and revenue, traffic mix, click-through rates, conversion rates, cost per acquisition, or cost per click.",13-1161.01,3.6666666666666665,9,5.0,3,Green
+16182,Search Marketing Strategists,Participate in the development or implementation of online marketing strategy.,13-1161.01,3.0,10,4.0,2,Green
+16190,Search Marketing Strategists,Optimize Web site exposure by analyzing search engine patterns to direct online placement of keywords or other content.,13-1161.01,3.4285714285714284,7,4.333333333333333,3,Green
+20318,Search Marketing Strategists,Assist in setting up or optimizing analytics tools for tracking visitors' behaviors.,13-1161.01,3.5,6,4.5,4,Green
+20326,Search Marketing Strategists,Identify appropriate Key Performance Indicators (KPIs) and report key metrics from digital campaigns.,13-1161.01,3.2,10,4.333333333333333,3,Green
+20321,Search Marketing Strategists,Create content strategies for digital media.,13-1161.01,3.2,10,4.0,3,Green
+20319,Search Marketing Strategists,Combine secondary data sources with keyword research to more accurately profile and satisfy user intent.,13-1161.01,3.2857142857142856,7,4.333333333333333,3,Green
+20330,Search Marketing Strategists,Optimize shopping cart experience or Web site conversion rates against Key Performance Indicators (KPIs).,13-1161.01,4.0,6,4.0,2,Green
+20327,Search Marketing Strategists,"Improve search-related activities through ongoing analysis, experimentation, or optimization tests, using A/B or multivariate methods.",13-1161.01,4.142857142857143,7,4.333333333333333,3,Green
+16191,Search Marketing Strategists,"Conduct online marketing initiatives, such as paid ad placement, affiliate programs, sponsorship programs, email promotions, or viral marketing campaigns on social media Web sites.",13-1161.01,3.2,5,2.6666666666666665,3,Yellow
+16186,Search Marketing Strategists,"Conduct market research analysis to identify search query trends, real-time search and news media activity, popular social media topics, electronic commerce trends, market opportunities, or competitor performance.",13-1161.01,3.6,5,4.333333333333333,3,Green
+16179,Search Marketing Strategists,Propose online or multiple-sales-channel campaigns to marketing executives.,13-1161.01,3.2,5,3.0,2,Yellow
+15980,Sustainability Specialists,"Monitor or track sustainability indicators, such as energy usage, natural resource usage, waste generation, and recycling.",13-1199.05,3.0,8,4.333333333333333,3,Green
+15979,Sustainability Specialists,"Assess or propose sustainability initiatives, considering factors such as cost effectiveness, technical feasibility, and acceptance.",13-1199.05,2.75,8,3.5,2,Red
+15973,Sustainability Specialists,Provide technical or administrative support for sustainability programs or issues.,13-1199.05,3.0,7,3.0,3,Yellow
+15968,Sustainability Specialists,Review and revise sustainability proposals or policies.,13-1199.05,3.1666666666666665,6,3.0,3,Yellow
+15976,Sustainability Specialists,Develop reports or presentations to communicate the effectiveness of sustainability initiatives.,13-1199.05,2.4,5,3.5,4,Red
+15975,Sustainability Specialists,Create or maintain plans or other documents related to sustainability projects.,13-1199.05,3.1666666666666665,6,4.5,2,Green
+15978,Sustainability Specialists,Collect information about waste stream management or green building practices to inform decision makers.,13-1199.05,2.6,5,2.5,2,Low-Priority
+15969,Sustainability Specialists,"Research or review regulatory, technical, or market issues related to sustainability.",13-1199.05,2.8333333333333335,6,4.0,2,Red
+15731,Online Merchants,"Receive and process payments from customers, using electronic transaction services.",13-1199.06,2.4,10,5.0,3,Red
+15710,Online Merchants,"Create, manage, or automate orders or invoices, using order management or invoicing software.",13-1199.06,3.1,10,5.0,3,Green
+15709,Online Merchants,Deliver e-mail confirmation of completed transactions and shipment.,13-1199.06,4.1,10,5.0,3,Green
+15728,Online Merchants,"Correspond with online customers via electronic mail, telephone, or other electronic messaging to address questions or complaints about products, policies, or shipping methods.",13-1199.06,3.2,10,3.6666666666666665,3,Green
+15707,Online Merchants,Determine and set product prices.,13-1199.06,2.3,10,4.0,3,Red
+15730,Online Merchants,"Calculate purchase subtotals, taxes, and shipping costs for submission to customers.",13-1199.06,2.7,10,5.0,3,Red
+15734,Online Merchants,"Compose descriptions of merchandise for posting to online storefront, auction sites, or other shopping Web sites.",13-1199.06,3.6,10,4.666666666666667,3,Green
+15703,Online Merchants,"Upload digital media, such as photos, video, or scanned images to online storefront, auction sites, or other shopping Web sites.",13-1199.06,2.6,10,4.0,2,Red
+15735,Online Merchants,"Calculate revenue, sales, and expenses, using financial accounting or spreadsheet software.",13-1199.06,4.4,10,5.0,3,Green
+15714,Online Merchants,Cancel orders based on customer requests or inventory or delivery problems.,13-1199.06,3.5,10,5.0,2,Green
+15732,Online Merchants,"Prepare or organize online storefront marketing material, including product descriptions or subject lines, optimizing content to search engine criteria.",13-1199.06,3.142857142857143,7,3.0,2,Yellow
+15704,Online Merchants,Order or purchase merchandise to maintain optimal inventory levels.,13-1199.06,2.2,5,3.0,2,Low-Priority
+15711,Online Merchants,Create or maintain database of customer accounts.,13-1199.06,4.5,4,4.333333333333333,3,Green
+15717,Online Merchants,"Promote products in online communities through weblog or discussion-forum postings, e-mail marketing programs, or online advertising.",13-1199.06,3.0,4,4.5,2,Green
+15721,Online Merchants,"Investigate products or markets to determine areas for opportunity or viability for merchandising specific products, using online or offline sources.",13-1199.06,4.0,3,2.3333333333333335,3,Yellow
+21511,Accountants and Auditors,"Examine and evaluate financial and information systems, recommending controls to ensure system reliability and data integrity.",13-2011.00,3.3,10,3.5,2,Green
+21514,Accountants and Auditors,"Prepare, examine, or analyze accounting records, financial statements, or other financial reports to assess accuracy, completeness, and conformance to reporting and procedural standards.",13-2011.00,1.75,8,3.6666666666666665,3,Red
+21515,Accountants and Auditors,Prepare adjusting journal entries.,13-2011.00,2.7,10,4.0,3,Red
+21516,Accountants and Auditors,Review accounts for discrepancies and reconcile differences.,13-2011.00,2.125,8,4.5,2,Red
+21519,Accountants and Auditors,"Analyze business operations, trends, costs, revenues, financial commitments, and obligations to project future revenues and expenses or to provide advice.",13-2011.00,2.0,9,4.333333333333333,3,Red
+21520,Accountants and Auditors,Report to management regarding the finances of establishment.,13-2011.00,2.2,10,3.3333333333333335,3,Low-Priority
+21522,Accountants and Auditors,"Evaluate taxpayer finances to determine tax liability, using knowledge of interest and discount rates, annuities, valuation of stocks and bonds, and amortization valuation of depletable assets.",13-2011.00,3.111111111111111,9,3.5,2,Green
+21549,Appraisers and Assessors of Real Estate,"Compute final estimation of property values, taking into account such factors as depreciation, replacement costs, value comparisons of similar properties, and income potential.",13-2023.00,2.75,8,2.75,4,Low-Priority
+21550,Appraisers and Assessors of Real Estate,"Prepare written reports that estimate property values, outline methods by which the estimations were made, and meet appraisal standards.",13-2023.00,3.625,8,2.6666666666666665,3,Yellow
+21552,Appraisers and Assessors of Real Estate,Collect and analyze relevant data to identify real estate market trends.,13-2023.00,2.9,10,4.0,2,Red
+21553,Appraisers and Assessors of Real Estate,"Prepare and maintain current data on each parcel assessed, including maps of boundaries, inventories of land and structures, property characteristics, and any applicable exemptions.",13-2023.00,3.1666666666666665,6,3.5,2,Green
+21555,Appraisers and Assessors of Real Estate,Identify the ownership of each piece of taxable property.,13-2023.00,3.0,9,3.0,3,Yellow
+21557,Appraisers and Assessors of Real Estate,Complete and maintain assessment rolls that show the assessed values and status of all property in a municipality.,13-2023.00,3.8,5,3.3333333333333335,3,Yellow
+21558,Appraisers and Assessors of Real Estate,"Review information about transfers of property to ensure its accuracy, checking basic information on buyers, sellers, and sales prices and making corrections as necessary.",13-2023.00,3.4285714285714284,7,3.0,3,Yellow
+21562,Appraisers and Assessors of Real Estate,Examine income records and operating costs of income properties.,13-2023.00,2.5,4,2.6666666666666665,3,Low-Priority
+21565,Appraisers and Assessors of Real Estate,"Search public records for transactions such as sales, leases, and assessments.",13-2023.00,3.375,8,2.0,2,Yellow
+21566,Appraisers and Assessors of Real Estate,Check building codes and zoning bylaws to determine any effects on the properties being appraised.,13-2023.00,3.5,4,3.0,3,Yellow
+21567,Appraisers and Assessors of Real Estate,Verify legal descriptions of properties by comparing them to county records.,13-2023.00,3.5714285714285716,7,4.0,2,Green
+21570,Appraisers and Assessors of Real Estate,Obtain county land values and sales information about nearby properties to aid in establishment of property values.,13-2023.00,3.75,4,2.6666666666666665,3,Yellow
+3394,Budget Analysts,Analyze monthly department budgeting and accounting reports to maintain expenditure controls.,13-2031.00,3.375,8,4.0,2,Green
+3401,Budget Analysts,Review operating budgets to analyze trends affecting budget needs.,13-2031.00,3.2857142857142856,7,3.3333333333333335,3,Yellow
+3405,Budget Analysts,Compile and analyze accounting records and other data to determine the financial resources required to implement a program.,13-2031.00,2.8333333333333335,6,2.5,2,Low-Priority
+3395,Budget Analysts,Direct the preparation of regular and special budget reports.,13-2031.00,3.4285714285714284,7,3.3333333333333335,3,Yellow
+1250,Credit Analysts,Analyze credit data and financial statements to determine the degree of risk involved in extending credit or lending money.,13-2041.00,2.5555555555555554,9,3.5,2,Red
+1254,Credit Analysts,"Complete loan applications, including credit analyses and summaries of loan requests, and submit to loan committees for approval.",13-2041.00,3.0,5,4.5,2,Green
+1255,Credit Analysts,"Generate financial ratios, using computer programs, to evaluate customers' financial status.",13-2041.00,3.4,10,4.5,2,Green
+1251,Credit Analysts,Prepare reports that include the degree of risk involved in extending credit or lending money.,13-2041.00,3.2,5,3.5,2,Green
+1259,Credit Analysts,"Analyze financial data, such as income growth, quality of management, and market share to determine expected profitability of loans.",13-2041.00,2.5714285714285716,7,2.6666666666666665,3,Low-Priority
+1257,Credit Analysts,"Compare liquidity, profitability, and credit histories of establishments being evaluated with those of similar establishments in the same industries and geographic locations.",13-2041.00,3.0,6,3.6666666666666665,3,Green
+12904,Personal Financial Advisors,Analyze financial information obtained from clients to determine strategies for meeting clients' financial objectives.,13-2052.00,2.9,10,3.0,2,Low-Priority
+20184,Personal Financial Advisors,"Manage client portfolios, keeping client plans up-to-date.",13-2052.00,2.8,10,4.5,2,Red
+20189,Personal Financial Advisors,"Recommend financial products, such as stocks, bonds, mutual funds, or insurance.",13-2052.00,2.5,10,2.3333333333333335,3,Low-Priority
+12913,Personal Financial Advisors,"Prepare or interpret for clients information, such as investment performance reports, financial document summaries, or income projections.",13-2052.00,3.3,10,2.5,2,Yellow
+20188,Personal Financial Advisors,Monitor financial market trends to ensure that client plans are responsive.,13-2052.00,3.7,10,3.3333333333333335,3,Yellow
+7319,Financial Examiners,"Prepare reports, exhibits, and other supporting schedules that detail an institution's safety and soundness, compliance with laws and regulations, and recommended solutions to questionable financial conditions.",13-2061.00,3.0,7,2.5,2,Yellow
+7320,Financial Examiners,"Review balance sheets, operating income and expense accounts, and loan documentation to confirm institution assets and liabilities.",13-2061.00,3.125,8,4.5,2,Green
+7318,Financial Examiners,"Examine the minutes of meetings of directors, stockholders, and committees to investigate the specific authority extended at various levels of management.",13-2061.00,2.8333333333333335,6,2.3333333333333335,3,Low-Priority
+18935,Credit Counselors,Calculate clients' available monthly income to meet debt obligations.,13-2071.00,2.8,5,3.0,2,Low-Priority
+18938,Credit Counselors,"Explain services or policies to clients, such as debt management program rules, advantages and disadvantages of using services, or creditor concession policies.",13-2071.00,3.0,5,2.5,2,Yellow
+18936,Credit Counselors,"Create debt management plans, spending plans, or budgets to assist clients to meet financial goals.",13-2071.00,2.25,4,2.5,2,Low-Priority
+18943,Credit Counselors,"Prioritize client debt repayment to avoid dire consequences, such as bankruptcy or foreclosure or to reduce overall costs, such as by paying high-interest or short-term loans first.",13-2071.00,2.6666666666666665,3,2.5,2,Low-Priority
+18934,Credit Counselors,"Assess clients' overall financial situations by reviewing income, assets, debts, expenses, credit reports, or other financial information.",13-2071.00,3.6,5,3.6666666666666665,3,Green
+18937,Credit Counselors,"Estimate time for debt repayment, given amount of debt, interest rates, and available funds.",13-2071.00,2.75,4,3.3333333333333335,3,Low-Priority
+18942,Credit Counselors,Prepare written documents to establish contracts with or communicate financial recommendations to clients.,13-2071.00,3.2,5,2.5,2,Yellow
+18940,Credit Counselors,"Maintain or update records of client account activity, including financial transactions, counseling session notes, correspondence, document images, or client inquiries.",13-2071.00,2.6666666666666665,6,5.0,2,Red
+18933,Credit Counselors,"Advise clients or respond to inquiries about financial matters in person or via phone, email, Web site, or Internet chat.",13-2071.00,2.5,4,3.5,2,Red
+3409,Loan Officers,"Analyze applicants' financial status, credit, and property evaluations to determine feasibility of granting loans.",13-2072.00,3.0,7,3.5,2,Green
+3407,Loan Officers,"Approve loans within specified limits, and refer loan applications outside those limits to management for approval.",13-2072.00,2.888888888888889,9,4.5,2,Red
+3416,Loan Officers,Submit applications to credit analysts for verification and recommendation.,13-2072.00,3.5,8,4.5,2,Green
+3413,Loan Officers,Review loan agreements to ensure that they are complete and accurate according to policy.,13-2072.00,2.8,5,3.6666666666666665,3,Red
+3412,Loan Officers,Review and update credit and loan files.,13-2072.00,3.142857142857143,7,3.6666666666666665,3,Green
+3411,Loan Officers,"Obtain and compile copies of loan applicants' credit histories, corporate financial statements, and other financial information.",13-2072.00,3.7142857142857144,7,4.5,2,Green
+3415,Loan Officers,Stay abreast of new types of loans and other financial services and products to better meet customers' needs.,13-2072.00,2.5,6,4.0,2,Red
+3414,Loan Officers,Compute payment schedules.,13-2072.00,3.4,5,3.0,2,Yellow
+7360,Tax Preparers,"Use all appropriate adjustments, deductions, and credits to keep clients' taxes to a minimum.",13-2082.00,3.375,8,4.5,2,Green
+7358,Tax Preparers,"Compute taxes owed or overpaid, using adding machines or personal computers, and complete entries on forms, following tax form instructions and tax tables.",13-2082.00,3.6666666666666665,6,4.0,2,Green
+7362,Tax Preparers,"Review financial records, such as income statements and documentation of expenditures to determine forms needed to prepare tax returns.",13-2082.00,3.625,8,4.5,2,Green
+7359,Tax Preparers,Prepare or assist in preparing simple to complex tax returns for individuals or small businesses.,13-2082.00,3.8,5,4.5,2,Green
+7363,Tax Preparers,Furnish taxpayers with sufficient information and advice to ensure correct tax form completion.,13-2082.00,2.75,4,3.3333333333333335,3,Low-Priority
+7364,Tax Preparers,Consult tax law handbooks or bulletins to determine procedures for preparation of atypical returns.,13-2082.00,3.8,5,4.5,2,Green
+20363,Tax Preparers,Answer questions and provide future tax planning to clients.,13-2082.00,3.7142857142857144,7,3.5,2,Green
+7365,Tax Preparers,Calculate form preparation fees according to return complexity and processing time required.,13-2082.00,3.3333333333333335,3,4.5,2,Green
+21165,Tax Preparers,Schedule appointments with clients.,13-2082.00,5.0,5,4.666666666666667,3,Green
+15997,Financial Quantitative Analysts,"Apply mathematical or statistical techniques to address practical issues in finance, such as derivative valuation, securities trading, risk management, or financial market regulation.",13-2099.01,3.3,10,3.0,3,Yellow
+15988,Financial Quantitative Analysts,Produce written summary reports of financial research results.,13-2099.01,3.4,10,4.0,2,Green
+15983,Financial Quantitative Analysts,Provide application or analytical support to researchers or traders on issues such as valuations or data.,13-2099.01,3.2,10,3.5,2,Green
+20950,Computer Systems Analysts,Troubleshoot program and system malfunctions to restore normal functioning.,15-1211.00,2.5454545454545454,11,3.6666666666666665,3,Red
+3465,Computer Systems Analysts,"Test, maintain, and monitor computer programs and systems, including coordinating the installation of computer programs and systems.",15-1211.00,2.3,10,3.0,2,Low-Priority
+3482,Computer Systems Analysts,"Use the computer in the analysis and solution of business problems, such as development of integrated production and inventory control and cost analysis systems.",15-1211.00,2.4,10,2.6666666666666665,3,Low-Priority
+3466,Computer Systems Analysts,"Use object-oriented programming languages, as well as client and server applications development processes and multimedia and Internet technology.",15-1211.00,2.8,10,4.0,3,Red
+3474,Computer Systems Analysts,"Analyze information processing or computation needs and plan and design computer systems, using techniques such as structured analysis, data modeling, and information engineering.",15-1211.00,2.7,10,3.0,2,Low-Priority
+3484,Computer Systems Analysts,Specify inputs accessed by the system and plan the distribution and use of the results.,15-1211.00,2.2222222222222223,9,3.3333333333333335,3,Low-Priority
+3470,Computer Systems Analysts,Expand or modify system to serve new purposes or improve work flow.,15-1211.00,2.5454545454545454,11,2.0,2,Low-Priority
+3480,Computer Systems Analysts,"Read manuals, periodicals, and technical reports to learn how to develop programs that meet staff and user requirements.",15-1211.00,2.7,10,4.5,2,Red
+3478,Computer Systems Analysts,"Review and analyze computer printouts and performance indicators to locate code problems, and correct errors by correcting codes.",15-1211.00,3.2222222222222223,9,4.5,2,Green
+18090,Health Informatics Specialists,"Translate nursing practice information between nurses and systems engineers, analysts, or designers, using object-oriented models or other techniques.",15-1211.01,3.25,4,3.0,2,Yellow
+18092,Health Informatics Specialists,Use informatics science to design or implement health information technology applications for resolution of clinical or health care administrative problems.,15-1211.01,2.6666666666666665,3,2.6666666666666665,3,Low-Priority
+18094,Health Informatics Specialists,"Analyze and interpret patient, nursing, or information systems data to improve nursing services.",15-1211.01,2.8333333333333335,6,3.0,2,Low-Priority
+18101,Health Informatics Specialists,"Identify, collect, record, or analyze data relevant to the nursing care of patients.",15-1211.01,3.1666666666666665,6,2.5,2,Yellow
+18093,Health Informatics Specialists,"Develop, implement, or evaluate health information technology applications, tools, processes, or structures to assist nurses with data management.",15-1211.01,2.5,4,3.0,2,Low-Priority
+18088,Health Informatics Specialists,"Design, develop, select, test, implement, and evaluate new or modified informatics solutions, data structures, and decision-support mechanisms to support patients, health care professionals, and their information management and human-computer and human-technology interactions within health care contexts.",15-1211.01,2.6666666666666665,6,2.6666666666666665,3,Low-Priority
+18095,Health Informatics Specialists,"Analyze computer and information technologies to determine applicability to nursing practice, education, administration, and research.",15-1211.01,2.0,4,2.6666666666666665,3,Low-Priority
+18100,Health Informatics Specialists,"Develop strategies, policies or procedures for introducing, evaluating, or modifying information technology applied to nursing practice, administration, education, or research.",15-1211.01,2.5,4,2.0,3,Low-Priority
+18103,Health Informatics Specialists,Provide consultation to nurses regarding hardware or software configuration.,15-1211.01,2.0,3,4.0,2,Red
+5314,Information Security Analysts,"Develop plans to safeguard computer files against accidental or unauthorized modification, destruction, or disclosure and to meet emergency data processing needs.",15-1212.00,2.6666666666666665,9,2.3333333333333335,3,Low-Priority
+5316,Information Security Analysts,Monitor current reports of computer viruses to determine when to update virus protection systems.,15-1212.00,3.375,8,3.0,2,Yellow
+5317,Information Security Analysts,"Modify computer security files to incorporate new software, correct errors, or change individual access status.",15-1212.00,2.625,8,3.5,2,Red
+5322,Information Security Analysts,"Document computer security and emergency measures policies, procedures, and tests.",15-1212.00,3.4,10,3.5,2,Green
+5319,Information Security Analysts,Monitor use of data files and regulate access to safeguard information in computer files.,15-1212.00,3.7,10,3.0,2,Yellow
+14623,Computer and Information Research Scientists,Analyze problems to develop solutions involving computer hardware and software.,15-1221.00,3.7777777777777777,9,2.3333333333333335,3,Yellow
+14626,Computer and Information Research Scientists,"Apply theoretical expertise and innovation to create or apply new technology, such as adapting principles for applying computers to new uses.",15-1221.00,3.3333333333333335,9,1.6666666666666667,3,Yellow
+14624,Computer and Information Research Scientists,Assign or schedule tasks to meet work priorities and goals.,15-1221.00,3.7,10,3.0,2,Yellow
+14633,Computer and Information Research Scientists,Design computers and the software that runs them.,15-1221.00,3.6666666666666665,9,2.6666666666666665,3,Yellow
+14625,Computer and Information Research Scientists,Evaluate project plans and proposals to assess feasibility issues.,15-1221.00,4.1,10,4.0,2,Green
+14636,Computer and Information Research Scientists,"Approve, prepare, monitor, and adjust operational budgets.",15-1221.00,4.166666666666667,6,2.5,2,Yellow
+19004,Computer Network Support Specialists,Back up network data.,15-1231.00,2.8333333333333335,6,4.5,2,Red
+18991,Computer Network Support Specialists,Configure security settings or access permissions for groups or individuals.,15-1231.00,2.3333333333333335,6,4.666666666666667,3,Red
+19003,Computer Network Support Specialists,Analyze and report computer network security breaches or attempted breaches.,15-1231.00,2.5,6,3.3333333333333335,3,Low-Priority
+18993,Computer Network Support Specialists,Document network support activities.,15-1231.00,3.5,4,4.5,2,Green
+18992,Computer Network Support Specialists,Configure wide area network (WAN) or local area network (LAN) routers or related equipment.,15-1231.00,2.0,5,2.0,2,Low-Priority
+19002,Computer Network Support Specialists,Troubleshoot network or connectivity problems for users or user groups.,15-1231.00,2.4285714285714284,7,2.5,2,Low-Priority
+19010,Computer Network Support Specialists,Provide telephone support related to networking or connectivity issues.,15-1231.00,3.8,5,3.6666666666666665,3,Green
+18989,Computer Network Support Specialists,"Analyze network data to determine network usage, disk space availability, or server function.",15-1231.00,3.3333333333333335,3,4.666666666666667,3,Green
+19011,Computer Network Support Specialists,Research hardware or software products to meet technical networking or security needs.,15-1231.00,2.0,3,3.3333333333333335,3,Low-Priority
+1285,Computer User Support Specialists,Oversee the daily performance of computer systems.,15-1232.00,2.75,8,5.0,2,Red
+1288,Computer User Support Specialists,"Read technical manuals, confer with users, or conduct computer diagnostics to investigate and resolve problems or to provide technical assistance and support.",15-1232.00,3.0,10,3.6666666666666665,3,Green
+1282,Computer User Support Specialists,Answer user inquiries regarding computer software or hardware operation to resolve problems.,15-1232.00,2.8,10,4.5,2,Red
+1283,Computer User Support Specialists,Enter commands and observe system functioning to verify correct operations and detect errors.,15-1232.00,2.2857142857142856,7,4.666666666666667,3,Red
+1287,Computer User Support Specialists,"Maintain records of daily data communication transactions, problems and remedial actions taken, or installation activities.",15-1232.00,4.5,6,4.666666666666667,3,Green
+1292,Computer User Support Specialists,"Prepare evaluations of software or hardware, and recommend improvements or upgrades.",15-1232.00,2.625,8,3.0,3,Low-Priority
+1290,Computer User Support Specialists,"Develop training materials and procedures, or train users in the proper use of hardware or software.",15-1232.00,3.0,9,2.3333333333333335,3,Yellow
+1299,Database Administrators,Modify existing databases and database management systems or direct programmers and analysts to make changes.,15-1242.00,2.1666666666666665,6,4.5,2,Red
+1301,Database Administrators,"Plan, coordinate, and implement security measures to safeguard information in computer files against accidental or unauthorized damage, modification or disclosure.",15-1242.00,2.3333333333333335,6,2.3333333333333335,3,Low-Priority
+1305,Database Administrators,Specify users and user access levels for each segment of database.,15-1242.00,2.5,6,4.0,2,Red
+1300,Database Administrators,"Test programs or databases, correct errors, and make necessary modifications.",15-1242.00,3.25,8,4.0,3,Green
+1313,Database Administrators,"Write and code logical and physical database descriptions and specify identifiers of database to management system, or direct others in coding descriptions.",15-1242.00,1.6666666666666667,3,4.5,2,Red
+1314,Database Administrators,"Review workflow charts developed by programmer analyst to understand tasks computer will perform, such as updating records.",15-1242.00,2.5714285714285716,7,4.0,3,Red
+1318,Network and Computer Systems Administrators,"Maintain and administer computer networks and related computing environments, including computer hardware, systems software, applications software, and all configurations.",15-1244.00,3.5,10,2.5,2,Yellow
+1317,Network and Computer Systems Administrators,Perform data backups and disaster recovery operations.,15-1244.00,3.75,8,1.5,2,Yellow
+15206,Network and Computer Systems Administrators,"Configure, monitor, and maintain email applications or virus protection software.",15-1244.00,3.875,8,5.0,2,Green
+1320,Network and Computer Systems Administrators,Operate master consoles to monitor the performance of computer systems and networks and to coordinate computer network access and use.,15-1244.00,3.5,6,4.5,2,Green
+1325,Network and Computer Systems Administrators,Monitor network performance to determine whether adjustments are needed and where changes will be needed in the future.,15-1244.00,3.6666666666666665,9,3.3333333333333335,3,Yellow
+1319,Network and Computer Systems Administrators,"Plan, coordinate, and implement network security measures to protect data, software, and hardware.",15-1244.00,3.7142857142857144,7,2.0,2,Yellow
+1329,Network and Computer Systems Administrators,Analyze equipment performance records to determine the need for repair or replacement.,15-1244.00,3.6666666666666665,6,4.0,3,Green
+1323,Network and Computer Systems Administrators,"Recommend changes to improve systems and network configurations, and determine hardware or software requirements related to such changes.",15-1244.00,3.3333333333333335,9,2.6666666666666665,3,Yellow
+1322,Network and Computer Systems Administrators,"Design, configure, and test computer hardware, networking software and operating system software.",15-1244.00,3.4,5,3.5,2,Green
+1321,Network and Computer Systems Administrators,"Perform routine network startup and shutdown procedures, and maintain control records.",15-1244.00,4.166666666666667,6,4.666666666666667,3,Green
+1273,Computer Programmers,"Write, analyze, review, and rewrite programs, using workflow chart and diagram, and applying knowledge of computer capabilities, subject matter, and symbolic logic.",15-1251.00,3.1,10,3.5,2,Green
+1267,Computer Programmers,Correct errors by making appropriate changes and rechecking the program to ensure that the desired results are produced.,15-1251.00,3.0,10,3.0,2,Yellow
+1272,Computer Programmers,"Perform or direct revision, repair, or expansion of existing programs to increase operating efficiency or adapt to new requirements.",15-1251.00,2.5,8,3.0,2,Low-Priority
+1270,Computer Programmers,"Write, update, and maintain computer programs or software packages to handle specific jobs such as tracking inventory, storing or retrieving data, or controlling other equipment.",15-1251.00,3.111111111111111,9,4.5,2,Green
+1276,Computer Programmers,"Prepare detailed workflow charts and diagrams that describe input, output, and logical operation, and convert them into a series of instructions coded in a computer language.",15-1251.00,3.0,8,5.0,2,Green
+1269,Computer Programmers,"Compile and write documentation of program development and subsequent revisions, inserting comments in the coded instructions so others can understand the program.",15-1251.00,3.625,8,4.666666666666667,3,Green
+1277,Computer Programmers,Perform systems analysis and programming tasks to maintain and control the use of computer systems software as a systems programmer.,15-1251.00,2.625,8,3.5,2,Red
+1274,Computer Programmers,Write or contribute to instructions or manuals to guide end users.,15-1251.00,2.8,10,4.0,3,Red
+1275,Computer Programmers,"Investigate whether networks, workstations, the central processing unit of the system, or peripheral equipment are responding to a program's instructions.",15-1251.00,3.4,10,5.0,2,Green
+1279,Computer Programmers,"Assign, coordinate, and review work and activities of programming personnel.",15-1251.00,2.3333333333333335,9,2.3333333333333335,3,Low-Priority
+21049,Computer Programmers,Develop Web sites.,15-1251.00,2.6666666666666665,9,4.0,2,Red
+14642,Software Quality Assurance Analysts and Testers,"Identify, analyze, and document problems with program function, output, online screen, or content.",15-1253.00,3.0,5,3.0,3,Yellow
+14641,Software Quality Assurance Analysts and Testers,"Document software defects, using a bug tracking system, and report defects to software developers.",15-1253.00,2.6666666666666665,6,4.0,3,Red
+14640,Software Quality Assurance Analysts and Testers,"Develop testing programs that address areas such as database impacts, software scenarios, regression testing, negative testing, error or bug retests, or usability.",15-1253.00,3.0,6,3.0,2,Yellow
+14638,Software Quality Assurance Analysts and Testers,"Design test plans, scenarios, scripts, or procedures.",15-1253.00,3.8333333333333335,6,3.3333333333333335,3,Yellow
+14648,Software Quality Assurance Analysts and Testers,Document test procedures to ensure replicability and compliance with standards.,15-1253.00,3.4,5,5.0,2,Green
+14653,Software Quality Assurance Analysts and Testers,Provide feedback and recommendations to developers on software usability and functionality.,15-1253.00,3.0,8,3.0,3,Yellow
+14652,Software Quality Assurance Analysts and Testers,"Install, maintain, or use software testing programs.",15-1253.00,3.5,6,3.0,2,Yellow
+14639,Software Quality Assurance Analysts and Testers,Test system modifications to prepare for implementation.,15-1253.00,3.25,4,3.6666666666666665,3,Green
+14644,Software Quality Assurance Analysts and Testers,Create or maintain databases of known test defects.,15-1253.00,3.25,4,5.0,2,Green
+14649,Software Quality Assurance Analysts and Testers,"Develop or specify standards, methods, or procedures to determine product quality or release readiness.",15-1253.00,3.1666666666666665,6,3.0,3,Yellow
+14643,Software Quality Assurance Analysts and Testers,Monitor bug resolution efforts and track successes.,15-1253.00,4.0,4,4.0,3,Green
+14650,Software Quality Assurance Analysts and Testers,Update automated test scripts to ensure currency.,15-1253.00,3.6666666666666665,3,4.5,2,Green
+14645,Software Quality Assurance Analysts and Testers,Plan test schedules or strategies in accordance with project scope or delivery dates.,15-1253.00,3.0,3,4.0,3,Green
+14654,Software Quality Assurance Analysts and Testers,Monitor program performance to ensure efficient and problem-free operations.,15-1253.00,3.75,4,3.5,2,Green
+14655,Software Quality Assurance Analysts and Testers,"Conduct software compatibility tests with programs, hardware, operating systems, or network environments.",15-1253.00,3.25,4,5.0,2,Green
+14647,Software Quality Assurance Analysts and Testers,"Review software documentation to ensure technical accuracy, compliance, or completeness, or to mitigate risks.",15-1253.00,2.3333333333333335,3,4.5,2,Red
+14658,Software Quality Assurance Analysts and Testers,"Identify program deviance from standards, and suggest modifications to ensure compliance.",15-1253.00,3.0,4,3.5,2,Green
+14707,Web Developers,Write supporting code for Web applications or Web sites.,15-1254.00,2.9,10,4.666666666666667,3,Red
+14694,Web Developers,"Design, build, or maintain Web sites, using authoring or scripting languages, content creation tools, management tools, and digital media.",15-1254.00,2.9,10,3.5,2,Red
+14698,Web Developers,Back up files from Web sites to local directories for instant recovery in case of problems.,15-1254.00,4.2,10,4.666666666666667,3,Green
+14700,Web Developers,"Evaluate code to ensure that it is valid, is properly structured, meets industry standards, and is compatible with browsers, devices, or operating systems.",15-1254.00,3.0,10,4.0,3,Green
+14710,Web Developers,"Perform Web site tests according to planned schedules, or after any Web site or product revision.",15-1254.00,3.3,10,4.666666666666667,3,Green
+14695,Web Developers,Perform or direct Web site updates.,15-1254.00,2.4,10,3.6666666666666665,3,Red
+14713,Web Developers,"Respond to user email inquiries, or set up automated systems to send responses.",15-1254.00,3.3,10,5.0,2,Green
+14708,Web Developers,Communicate with network personnel or Web site hosting agencies to address hardware or software issues affecting Web sites.,15-1254.00,3.2,10,2.0,2,Yellow
+14717,Web Developers,Establish appropriate server directory trees.,15-1254.00,3.3,10,4.333333333333333,3,Green
+14719,Web Developers,Recommend and implement performance improvements.,15-1254.00,3.1,10,4.0,2,Green
+14714,Web Developers,Develop or implement procedures for ongoing Web site revision.,15-1254.00,2.6,10,4.0,2,Red
+14722,Web Developers,"Provide clear, detailed descriptions of Web site specifications, such as product features, activities, software, communication protocols, programming languages, and operating systems software and hardware.",15-1254.00,2.8,10,5.0,2,Red
+14723,Web Developers,Monitor security system performance logs to identify problems and notify security specialists when problems occur.,15-1254.00,2.9,10,3.3333333333333335,3,Low-Priority
+16199,Video Game Designers,Balance and adjust gameplay experiences to ensure the critical and commercial success of the product.,15-1255.01,3.1666666666666665,6,2.6666666666666665,3,Yellow
+16208,Video Game Designers,"Devise missions, challenges, or puzzles to be encountered in game play.",15-1255.01,2.5714285714285716,7,3.0,2,Low-Priority
+16217,Video Game Designers,"Create core game features, including storylines, role-play mechanics, and character biographies for a new video game or game franchise.",15-1255.01,2.857142857142857,7,2.0,4,Low-Priority
+16201,Video Game Designers,"Solicit, obtain, and integrate feedback from design and technical staff into original game design.",15-1255.01,3.75,4,3.0,3,Yellow
+16214,Video Game Designers,Conduct regular design reviews throughout the game development process.,15-1255.01,3.4,5,2.6666666666666665,3,Yellow
+16209,Video Game Designers,"Develop and maintain design level documentation, including mechanics, guidelines, and mission outlines.",15-1255.01,2.2,5,1.6666666666666667,3,Low-Priority
+16198,Video Game Designers,Provide feedback to designers and other colleagues regarding game design features.,15-1255.01,1.6666666666666667,6,3.3333333333333335,3,Low-Priority
+16212,Video Game Designers,"Create and manage documentation, production schedules, prototyping goals, and communication plans in collaboration with production staff.",15-1255.01,3.6666666666666665,3,1.3333333333333333,3,Yellow
+16202,Video Game Designers,Provide feedback to production staff regarding technical game qualities or adherence to original design.,15-1255.01,2.25,4,2.0,3,Low-Priority
+16211,Video Game Designers,Create gameplay prototypes for presentation to creative and technical staff and management.,15-1255.01,3.1666666666666665,6,2.0,2,Yellow
+16203,Video Game Designers,Prepare two-dimensional concept layouts or three-dimensional mock-ups.,15-1255.01,3.75,4,4.0,2,Green
+16194,Video Game Designers,"Review or evaluate competitive products, film, music, television, and other art forms to generate new game design ideas.",15-1255.01,2.3333333333333335,3,3.0,3,Low-Priority
+16200,Video Game Designers,Write or supervise the writing of game text and dialogue.,15-1255.01,2.0,3,3.0,2,Low-Priority
+14734,Web Administrators,"Monitor systems for intrusions or denial of service attacks, and report security breaches to appropriate personnel.",15-1299.01,3.8,5,3.6666666666666665,3,Green
+14731,Web Administrators,Back up or modify applications and related data to provide for disaster recovery.,15-1299.01,4.2,5,4.5,2,Green
+14758,Web Administrators,"Correct testing-identified problems, or recommend actions for their resolution.",15-1299.01,3.2857142857142856,7,4.0,2,Green
+14732,Web Administrators,"Determine sources of Web page or server problems, and take action to correct such problems.",15-1299.01,3.1666666666666665,6,4.0,2,Green
+14740,Web Administrators,"Implement updates, upgrades, and patches in a timely manner to limit loss of service.",15-1299.01,3.6,5,4.666666666666667,3,Green
+14750,Web Administrators,"Test issues such as system integration, performance, and system security on a regular schedule or after any major program modifications.",15-1299.01,3.75,4,4.5,2,Green
+14749,Web Administrators,"Track, compile, and analyze Web site usage data.",15-1299.01,3.5,4,4.5,2,Green
+14733,Web Administrators,"Review or update Web page content or links in a timely manner, using appropriate tools.",15-1299.01,3.2857142857142856,7,4.5,2,Green
+14743,Web Administrators,"Install or configure Web server software or hardware to ensure that directory structure is well-defined, logical, and secure, and that files are named properly.",15-1299.01,4.0,5,4.5,2,Green
+14744,Web Administrators,"Gather, analyze, or document user feedback to locate or resolve sources of problems.",15-1299.01,2.6,5,2.6666666666666665,3,Low-Priority
+14762,Web Administrators,Set up or maintain monitoring tools on Web servers or Web sites.,15-1299.01,4.0,5,4.5,2,Green
+14675,Computer Systems Engineers/Architects,Monitor system operation to detect potential problems.,15-1299.08,4.0,4,3.0,2,Yellow
+14673,Computer Systems Engineers/Architects,"Identify system data, hardware, or software components required to meet user needs.",15-1299.08,2.5,6,3.0,3,Low-Priority
+14686,Computer Systems Engineers/Architects,"Research, test, or verify proper functioning of software patches and fixes.",15-1299.08,3.5714285714285716,7,4.0,2,Green
+14670,Computer Systems Engineers/Architects,Collaborate with engineers or software developers to select appropriate design solutions or ensure the compatibility of system components.,15-1299.08,3.0,8,3.3333333333333335,3,Yellow
+14683,Computer Systems Engineers/Architects,Design and conduct hardware or software tests.,15-1299.08,3.6,5,2.5,2,Yellow
+14672,Computer Systems Engineers/Architects,Provide technical guidance or support for the development or troubleshooting of systems.,15-1299.08,3.3333333333333335,9,3.3333333333333335,3,Yellow
+14681,Computer Systems Engineers/Architects,"Define and analyze objectives, scope, issues, or organizational impact of information systems.",15-1299.08,2.0,3,2.6666666666666665,3,Low-Priority
+14667,Computer Systems Engineers/Architects,"Provide advice on project costs, design concepts, or design changes.",15-1299.08,3.5714285714285716,7,2.3333333333333335,3,Yellow
+14671,Computer Systems Engineers/Architects,"Evaluate current or emerging technologies to consider factors such as cost, portability, compatibility, or usability.",15-1299.08,2.6,5,3.0,3,Low-Priority
+14687,Computer Systems Engineers/Architects,"Communicate project information through presentations, technical reports, or white papers.",15-1299.08,3.5,8,3.3333333333333335,3,Yellow
+16157,Information Technology Project Managers,Monitor or track project milestones and deliverables.,15-1299.09,3.3,10,2.3333333333333335,3,Yellow
+16152,Information Technology Project Managers,"Submit project deliverables, ensuring adherence to quality standards.",15-1299.09,2.7,10,2.3333333333333335,3,Low-Priority
+16159,Information Technology Project Managers,"Initiate, review, or approve modifications to project plans.",15-1299.09,2.8,10,3.3333333333333335,3,Low-Priority
+16170,Information Technology Project Managers,"Develop or update project plans for information technology projects including information such as project objectives, technologies, systems, information specifications, schedules, funding, and staffing.",15-1299.09,2.8,10,2.3333333333333335,3,Low-Priority
+16151,Information Technology Project Managers,Perform risk assessments to develop response strategies.,15-1299.09,3.0,10,2.0,2,Yellow
+16168,Information Technology Project Managers,"Prepare project status reports by collecting, analyzing, and summarizing information and trends.",15-1299.09,3.0,10,4.5,2,Green
+16171,Information Technology Project Managers,Develop and manage work breakdown structure (WBS) of information technology projects.,15-1299.09,2.7,10,2.0,3,Low-Priority
+16167,Information Technology Project Managers,"Assign duties, responsibilities, and spans of authority to project personnel.",15-1299.09,2.6,10,2.0,3,Low-Priority
+7373,Mathematicians,"Address the relationships of quantities, magnitudes, and forms through the use of numbers and symbols.",15-2021.00,3.111111111111111,9,3.6666666666666665,3,Green
+7371,Mathematicians,Develop mathematical or statistical models of phenomena to be used for analysis or for computational simulation.,15-2021.00,2.888888888888889,9,2.5,2,Low-Priority
+7370,Mathematicians,Perform computations and apply methods of numerical analysis to data.,15-2021.00,4.0,6,4.5,2,Green
+7372,Mathematicians,"Assemble sets of assumptions, and explore the consequences of each set.",15-2021.00,2.7142857142857144,7,2.0,2,Low-Priority
+7368,Mathematicians,Develop computational methods for solving problems that occur in areas of science and engineering or that come from applications in business or industry.,15-2021.00,3.4285714285714284,7,2.0,2,Yellow
+8956,Statisticians,Analyze and interpret statistical data to identify significant differences in relationships among sources of information.,15-2041.00,3.25,8,4.0,3,Green
+8953,Statisticians,"Report results of statistical analyses, including information in the form of graphs, charts, and tables.",15-2041.00,4.5,10,4.0,2,Green
+8957,Statisticians,"Prepare data for processing by organizing information, checking for inaccuracies, and adjusting and weighting the raw data.",15-2041.00,3.25,8,3.3333333333333335,3,Yellow
+8955,Statisticians,"Identify relationships and trends in data, as well as any factors that could affect the results of research.",15-2041.00,3.7142857142857144,7,4.0,2,Green
+8961,Statisticians,"Design research projects that apply valid scientific techniques, and use information obtained from baselines or historical data to structure uncompromised and efficient analyses.",15-2041.00,2.75,4,2.0,2,Low-Priority
+8954,Statisticians,"Process large amounts of data for statistical modeling and graphic analysis, using computers.",15-2041.00,3.8,10,4.0,2,Green
+16265,Biostatisticians,"Analyze clinical or survey data, using statistical approaches such as longitudinal analysis, mixed-effect modeling, logistic regression analyses, and model-building techniques.",15-2041.01,2.625,8,4.0,2,Red
+16246,Biostatisticians,Calculate sample size requirements for clinical studies.,15-2041.01,4.0,4,3.5,2,Green
+16252,Biostatisticians,Prepare tables and graphs to present clinical data or results.,15-2041.01,4.0,9,3.0,2,Yellow
+16249,Biostatisticians,Write program code to analyze data with statistical analysis software.,15-2041.01,2.6666666666666665,6,4.0,2,Red
+16262,Biostatisticians,Review clinical or other medical research protocols and recommend appropriate statistical analyses.,15-2041.01,2.6666666666666665,6,4.0,2,Red
+16150,Business Intelligence Analysts,"Generate standard or custom reports summarizing business, financial, or economic data for review by executives, managers, clients, and other stakeholders.",15-2051.01,3.2,10,3.0,2,Yellow
+16140,Business Intelligence Analysts,Manage timely flow of business intelligence information to users.,15-2051.01,3.4,10,2.5,2,Yellow
+16146,Business Intelligence Analysts,"Collect business intelligence data from available industry reports, public information, field reports, or purchased sources.",15-2051.01,3.142857142857143,7,3.0,2,Yellow
+16143,Business Intelligence Analysts,"Disseminate information regarding tools, reports, or metadata enhancements.",15-2051.01,3.75,4,2.5,2,Yellow
+16136,Business Intelligence Analysts,"Identify or monitor current and potential customers, using business intelligence tools.",15-2051.01,3.2222222222222223,9,3.5,2,Green
+16135,Business Intelligence Analysts,"Maintain library of model documents, templates, or other reusable knowledge assets.",15-2051.01,3.6666666666666665,9,4.5,2,Green
+16284,Clinical Data Managers,"Process clinical data, including receipt, entry, verification, or filing of information.",15-2051.02,3.5714285714285716,7,3.0,2,Yellow
+16280,Clinical Data Managers,"Generate data queries, based on validation checks or errors and omissions identified during data entry, to resolve identified problems.",15-2051.02,4.0,6,3.0,2,Yellow
+16279,Clinical Data Managers,Monitor work productivity or quality to ensure compliance with standard operating procedures.,15-2051.02,3.4,5,3.0,2,Yellow
+16277,Clinical Data Managers,"Prepare data analysis listings and activity, performance, or progress reports.",15-2051.02,3.375,8,3.5,2,Green
+16283,Clinical Data Managers,Analyze clinical data using appropriate statistical tools.,15-2051.02,3.6666666666666665,9,3.0,2,Yellow
+16270,Clinical Data Managers,Develop technical specifications for data management programming and communicate needs to information technology staff.,15-2051.02,3.5,6,2.5,2,Yellow
+16274,Clinical Data Managers,"Track the flow of work forms, including in-house data flow or electronic forms transfer.",15-2051.02,3.6666666666666665,3,2.5,2,Yellow
+20483,"Architects, Except Landscape and Naval",Develop final construction plans that include aesthetic representations of the structure or details for its construction.,17-1011.00,2.75,8,2.0,2,Low-Priority
+20479,"Architects, Except Landscape and Naval","Prepare scale drawings or architectural designs, using computer-aided design or other tools.",17-1011.00,2.2,5,4.0,2,Red
+130,"Architects, Except Landscape and Naval","Prepare information regarding design, structure specifications, materials, color, equipment, estimated costs, or construction time.",17-1011.00,2.75,4,2.5,2,Low-Priority
+136,"Architects, Except Landscape and Naval",Integrate engineering elements into unified architectural designs.,17-1011.00,2.8,5,2.0,2,Low-Priority
+20486,"Architects, Except Landscape and Naval",Plan layouts of structural architectural projects.,17-1011.00,3.5,4,2.5,2,Yellow
+134,"Architects, Except Landscape and Naval",Prepare contract documents for building contractors.,17-1011.00,2.0,4,3.0,2,Low-Priority
+19596,"Architects, Except Landscape and Naval","Plan or design structures such as residences, office buildings, theatres, factories, or other structural properties in accordance with environmental, safety, or other regulations.",17-1011.00,2.6,5,2.5,2,Low-Priority
+20488,"Architects, Except Landscape and Naval","Create three-dimensional or interactive representations of designs, using computer-assisted design software.",17-1011.00,2.8333333333333335,6,3.3333333333333335,3,Low-Priority
+19594,"Architects, Except Landscape and Naval",Gather information related to projects' environmental sustainability or operational efficiency.,17-1011.00,3.5,8,2.0,2,Yellow
+1339,Aerospace Engineers,"Formulate mathematical models or other methods of computer analysis to develop, evaluate, or modify design, according to customer engineering requirements.",17-2011.00,3.0,5,2.0,3,Yellow
+1340,Aerospace Engineers,"Write technical reports or other documentation, such as handbooks or bulletins, for use by engineering staff, management, or customers.",17-2011.00,3.142857142857143,7,3.0,2,Yellow
+20726,Aerospace Engineers,"Develop design criteria for aeronautical or aerospace products or systems, including testing methods, production costs, quality standards, environmental standards, or completion dates.",17-2011.00,3.0,3,2.6666666666666665,3,Yellow
+1346,Aerospace Engineers,Maintain records of performance reports for future reference.,17-2011.00,3.6666666666666665,3,3.5,2,Green
+19601,Aerospace Engineers,"Design new or modify existing aerospace systems to reduce polluting emissions, such as nitrogen oxide, carbon monoxide, or smoke emissions.",17-2011.00,3.0,3,2.0,3,Yellow
+147,Civil Engineers,"Compute load and grade requirements, water flow rates, or material stress factors to determine design specifications.",17-2051.00,2.888888888888889,9,3.3333333333333335,3,Low-Priority
+20491,Civil Engineers,"Plan and design transportation or hydraulic systems or structures, using computer-assisted design or drawing tools.",17-2051.00,3.0,8,3.0,3,Yellow
+20492,Civil Engineers,"Analyze survey reports, maps, drawings, blueprints, aerial photography, or other topographical or geologic data.",17-2051.00,2.5714285714285716,7,4.0,2,Red
+151,Civil Engineers,"Estimate quantities and cost of materials, equipment, or labor to determine project feasibility.",17-2051.00,3.25,8,3.0,3,Yellow
+19607,Civil Engineers,Design energy-efficient or environmentally sound civil structures.,17-2051.00,3.6666666666666665,9,3.0,3,Yellow
+1411,Mechanical Engineers,"Read and interpret blueprints, technical drawings, schematics, or computer-generated reports.",17-2141.00,3.888888888888889,9,3.3333333333333335,3,Yellow
+20736,Mechanical Engineers,"Specify system components or direct modification of products to ensure conformance with engineering design, performance specifications, or environmental regulations.",17-2141.00,3.25,4,2.0,2,Yellow
+20737,Mechanical Engineers,"Assist drafters in developing the structural design of products, using drafting tools or computer-assisted drafting equipment or software.",17-2141.00,3.6,5,2.3333333333333335,3,Yellow
+1420,Mechanical Engineers,"Conduct research that tests or analyzes the feasibility, design, operation, or performance of equipment, components, or systems.",17-2141.00,3.3333333333333335,3,2.5,2,Yellow
+20735,Mechanical Engineers,"Develop or test models of alternate designs or processing methods to assess feasibility, sustainability, operating condition effects, potential new applications, or necessity of modification.",17-2141.00,3.5,8,2.6666666666666665,3,Yellow
+1418,Mechanical Engineers,Provide feedback to design engineers on customer problems or needs.,17-2141.00,2.5,6,3.0,3,Low-Priority
+3580,Petroleum Engineers,"Monitor production rates, and plan rework processes to improve production.",17-2171.00,3.6,5,2.0,2,Yellow
+3586,Petroleum Engineers,Maintain records of drilling and production operations.,17-2171.00,4.333333333333333,6,3.0,3,Yellow
+3581,Petroleum Engineers,Analyze data to recommend placement of wells and supplementary processes to enhance production.,17-2171.00,3.0,3,2.0,2,Yellow
+3591,Petroleum Engineers,Interpret drilling and testing information for personnel.,17-2171.00,3.0,3,3.5,2,Green
+3588,Petroleum Engineers,Write technical reports for engineering and management personnel.,17-2171.00,3.6,5,4.333333333333333,3,Green
+3589,Petroleum Engineers,"Evaluate findings to develop, design, or test equipment or processes.",17-2171.00,4.0,3,2.0,2,Yellow
+3590,Petroleum Engineers,Assign work to staff to obtain maximum utilization of personnel.,17-2171.00,4.0,4,2.5,2,Yellow
+20854,"Energy Engineers, Except Wind and Solar",Identify and recommend energy savings strategies to achieve more energy-efficient operation.,17-2199.03,3.3333333333333335,3,2.6666666666666665,3,Yellow
+18156,"Energy Engineers, Except Wind and Solar",Monitor and analyze energy consumption.,17-2199.03,3.6666666666666665,6,3.0,3,Yellow
+20858,"Energy Engineers, Except Wind and Solar",Verify energy bills and meter readings.,17-2199.03,3.25,4,3.3333333333333335,3,Yellow
+20861,"Energy Engineers, Except Wind and Solar",Prepare energy-related project reports or related documentation.,17-2199.03,3.0,5,4.0,3,Green
+18157,"Energy Engineers, Except Wind and Solar",Promote awareness or use of alternative or renewable energy sources.,17-2199.03,2.25,4,3.0,3,Low-Priority
+19648,"Energy Engineers, Except Wind and Solar",Write or install energy management routines for building automation systems.,17-2199.03,3.0,5,2.3333333333333335,3,Yellow
+21917,Architectural and Civil Drafters,"Produce drawings, using computer-assisted drafting systems (CAD) or drafting machines, or by hand, using compasses, dividers, protractors, triangles, and other drafting devices.",17-3011.00,2.9,10,4.5,2,Red
+21918,Architectural and Civil Drafters,"Draft plans and detailed drawings for structures, installations, and construction projects, such as highways, sewage disposal systems, and dikes, working from sketches or notes.",17-3011.00,3.4444444444444446,9,3.0,3,Yellow
+21919,Architectural and Civil Drafters,"Coordinate structural, electrical, and mechanical designs and determine a method of presentation to graphically represent building plans.",17-3011.00,2.4,5,3.0,2,Low-Priority
+21920,Architectural and Civil Drafters,"Analyze building codes, by-laws, space and site requirements, and other technical documents and reports to determine their effect on architectural designs.",17-3011.00,3.0,7,3.5,2,Green
+21921,Architectural and Civil Drafters,"Draw maps, diagrams, and profiles, using cross-sections and surveys, to represent elevations, topographical contours, subsurface formations, and structures.",17-3011.00,2.6666666666666665,3,3.5,2,Red
+21922,Architectural and Civil Drafters,"Lay out and plan interior room arrangements for commercial buildings, using computer-assisted drafting (CAD) equipment and software.",17-3011.00,2.75,4,3.0,3,Low-Priority
+21924,Architectural and Civil Drafters,"Determine the order of work and method of presentation, such as orthographic or isometric drawing.",17-3011.00,3.3333333333333335,3,3.5,2,Green
+21926,Architectural and Civil Drafters,"Draw rough and detailed scale plans for foundations, buildings, and structures, based on preliminary concepts, sketches, engineering calculations, specification sheets, and other data.",17-3011.00,3.6666666666666665,6,2.5,2,Yellow
+21928,Architectural and Civil Drafters,Check dimensions of materials to be used and assign numbers to lists of materials.,17-3011.00,3.2,5,4.5,2,Green
+21937,Architectural and Civil Drafters,Prepare colored drawings of landscape and interior designs for presentation to client.,17-3011.00,2.5,4,3.3333333333333335,3,Low-Priority
+22082,Mechanical Engineering Technologists and Technicians,"Interpret engineering sketches, specifications, or drawings.",17-3027.00,1.75,4,3.0,2,Low-Priority
+1485,Mechanical Engineering Technologists and Technicians,Calculate required capacities for equipment of proposed system to obtain specified performance and submit data to engineering personnel for approval.,17-3027.00,1.6666666666666667,3,2.6666666666666665,3,Low-Priority
+1476,Mechanical Engineering Technologists and Technicians,"Review project instructions and blueprints to ascertain test specifications, procedures, and objectives, and test nature of technical problems such as redesign.",17-3027.00,2.75,4,4.0,2,Red
+22086,Mechanical Engineering Technologists and Technicians,"Provide technical support to other employees regarding mechanical design, fabrication, testing, or documentation.",17-3027.00,3.3333333333333335,3,3.0,2,Yellow
+1475,Mechanical Engineering Technologists and Technicians,"Draft detail drawing or sketch for drafting room completion or to request parts fabrication by machine, sheet or wood shops.",17-3027.00,2.0,3,3.3333333333333335,3,Low-Priority
+1482,Mechanical Engineering Technologists and Technicians,"Analyze test results in relation to design or rated specifications and test objectives, and modify or adjust equipment to meet specifications.",17-3027.00,3.6,5,2.0,2,Yellow
+1486,Mechanical Engineering Technologists and Technicians,"Record test procedures and results, numerical and graphical data, and recommendations for changes in product or test methods.",17-3027.00,3.0,7,2.6666666666666665,3,Yellow
+22077,Mechanical Engineering Technologists and Technicians,"Design molds, tools, dies, jigs, or fixtures for use in manufacturing processes.",17-3027.00,3.3333333333333335,3,2.0,2,Yellow
+1477,Mechanical Engineering Technologists and Technicians,"Review project instructions and specifications to identify, modify and plan requirements fabrication, assembly and testing.",17-3027.00,3.0,4,2.0,2,Yellow
+22083,Mechanical Engineering Technologists and Technicians,"Prepare equipment inspection schedules, reliability schedules, work plans, or other records.",17-3027.00,4.0,4,3.5,2,Green
+16786,Bioinformatics Scientists,Develop new software applications or customize existing applications to meet specific scientific project needs.,19-1029.01,3.6,5,4.0,3,Green
+16790,Bioinformatics Scientists,Create novel computational approaches and analytical tools as required by research goals.,19-1029.01,3.0,4,4.0,2,Green
+16795,Bioinformatics Scientists,"Analyze large molecular datasets, such as raw microarray data, genomic sequence data, or proteomics data, for clinical or basic research purposes.",19-1029.01,2.8333333333333335,6,3.5,2,Red
+16791,Bioinformatics Scientists,"Compile data for use in activities, such as gene expression profiling, genome annotation, or structural bioinformatics.",19-1029.01,4.0,5,4.0,3,Green
+16793,Bioinformatics Scientists,"Manipulate publicly accessible, commercial, or proprietary genomic, proteomic, or post-genomic databases.",19-1029.01,4.166666666666667,6,3.5,2,Green
+16788,Bioinformatics Scientists,Create or modify web-based bioinformatics tools.,19-1029.01,3.75,4,3.6666666666666665,3,Green
+16783,Bioinformatics Scientists,Instruct others in the selection and use of bioinformatics tools.,19-1029.01,2.5,4,3.3333333333333335,3,Low-Priority
+16807,Molecular and Cellular Biologists,Maintain accurate laboratory records and data.,19-1029.02,2.857142857142857,7,2.5,2,Low-Priority
+23905,Molecular and Cellular Biologists,"Prepare or review reports, manuscripts, or meeting presentations.",19-1029.02,3.1666666666666665,6,3.3333333333333335,3,Yellow
+16808,Molecular and Cellular Biologists,Instruct undergraduate and graduate students within the areas of cellular or molecular biology.,19-1029.02,2.7142857142857144,7,2.0,2,Low-Priority
+16814,Molecular and Cellular Biologists,Compile and analyze molecular or cellular experimental data and adjust experimental designs as necessary.,19-1029.02,3.3333333333333335,6,2.3333333333333335,3,Yellow
+16809,Molecular and Cellular Biologists,Evaluate new technologies to enhance or complement current research.,19-1029.02,3.0,5,2.0,2,Yellow
+5503,Geographers,"Create and modify maps, graphs, or diagrams, using geographical information software and related equipment, and principles of cartography, such as coordinate systems, longitude, latitude, elevation, topography, and map scales.",19-3092.00,2.8,5,4.0,3,Red
+5511,Geographers,"Study the economic, political, and cultural characteristics of a specific region's population.",19-3092.00,2.6666666666666665,3,3.5,2,Red
+5505,Geographers,"Develop, operate, and maintain geographical information computer systems, including hardware, software, plotters, digitizers, printers, and video cameras.",19-3092.00,3.2,5,2.6666666666666665,3,Yellow
+5506,Geographers,Locate and obtain existing geographic information databases.,19-3092.00,2.5,4,3.0,2,Low-Priority
+16943,Transportation Planners,Prepare reports or recommendations on transportation planning.,19-3099.01,3.142857142857143,7,3.0,3,Yellow
+16952,Transportation Planners,"Recommend transportation system improvements or projects, based on economic, population, land-use, or traffic projections.",19-3099.01,3.2857142857142856,7,2.0,2,Yellow
+20976,Transportation Planners,"Interpret data from traffic modeling software, geographic information systems, or associated databases.",19-3099.01,3.857142857142857,7,2.3333333333333335,3,Yellow
+18295,Precision Agriculture Technicians,Document and maintain records of precision agriculture information.,19-4012.01,2.857142857142857,7,3.0,3,Low-Priority
+18289,Precision Agriculture Technicians,"Create, layer, and analyze maps showing precision agricultural data, such as crop yields, soil characteristics, input applications, terrain, drainage patterns, or field management history.",19-4012.01,3.0,4,3.5,2,Green
+20875,Precision Agriculture Technicians,"Analyze geospatial data to determine agricultural implications of factors such as soil quality, terrain, field productivity, fertilizers, or weather conditions.",19-4012.01,2.25,4,3.0,2,Low-Priority
+18282,Precision Agriculture Technicians,"Identify spatial coordinates, using remote sensing and Global Positioning System (GPS) data.",19-4012.01,3.3333333333333335,3,3.5,2,Green
+18296,Precision Agriculture Technicians,"Draw or read maps, such as soil, contour, or plat maps.",19-4012.01,3.0,8,3.3333333333333335,3,Yellow
+18278,Precision Agriculture Technicians,"Program farm equipment, such as variable-rate planting equipment or pesticide sprayers, based on input from crop scouting and analysis of field condition variability.",19-4012.01,3.0,6,2.5,2,Yellow
+18293,Precision Agriculture Technicians,"Analyze remote sensing imagery to identify relationships between soil quality, crop canopy densities, light reflectance, and weather history.",19-4012.01,3.5,4,3.3333333333333335,3,Yellow
+12963,Social Science Research Assistants,Design and create special programs for tasks such as statistical analysis and data entry and cleaning.,19-4061.00,3.7142857142857144,7,4.0,3,Green
+12955,Social Science Research Assistants,"Perform descriptive and multivariate statistical analyses of data, using computer software.",19-4061.00,4.0,5,4.0,3,Green
+12956,Social Science Research Assistants,"Verify the accuracy and validity of data entered in databases, correcting any errors.",19-4061.00,4.0,3,4.0,3,Green
+12960,Social Science Research Assistants,Conduct internet-based and library research.,19-4061.00,3.3333333333333335,6,4.0,3,Green
+12968,Social Science Research Assistants,Recruit and schedule research participants.,19-4061.00,2.5,6,2.0,2,Low-Priority
+16974,Quality Control Analysts,"Interpret test results, compare them to established specifications and control limits, and make recommendations on appropriateness of data for release.",19-4099.01,3.5714285714285716,7,4.0,2,Green
+16977,Quality Control Analysts,"Complete documentation needed to support testing procedures, including data capture forms, equipment logbooks, or inventory forms.",19-4099.01,3.8,5,3.3333333333333335,3,Yellow
+16979,Quality Control Analysts,Compile laboratory test data and perform appropriate analyses.,19-4099.01,3.3333333333333335,3,3.5,2,Green
+16964,Quality Control Analysts,"Write technical reports or documentation, such as deviation reports, testing protocols, and trend analyses.",19-4099.01,3.75,4,2.0,2,Yellow
+16973,Quality Control Analysts,Investigate or report questionable test results.,19-4099.01,2.5,6,2.5,2,Low-Priority
+16966,Quality Control Analysts,Supply quality control data necessary for regulatory submissions.,19-4099.01,2.75,8,3.0,3,Low-Priority
+16976,Quality Control Analysts,Evaluate analytical methods and procedures to determine how they might be improved.,19-4099.01,3.3333333333333335,3,3.5,2,Green
+16968,Quality Control Analysts,Review data from contract laboratories to ensure accuracy and regulatory compliance.,19-4099.01,3.6666666666666665,3,3.0,3,Yellow
+3775,Lawyers,"Analyze the probable outcomes of cases, using knowledge of legal precedents.",23-1011.00,3.0,6,4.0,2,Green
+20877,Lawyers,"Prepare, draft, and review legal documents, such as wills, deeds, patent applications, mortgages, leases, and contracts.",23-1011.00,3.2857142857142856,7,3.5,2,Green
+3783,Lawyers,"Study Constitution, statutes, decisions, regulations, and ordinances of quasi-judicial bodies to determine ramifications for cases.",23-1011.00,3.1666666666666665,6,4.0,2,Green
+19050,Judicial Law Clerks,"Prepare briefs, legal memoranda, or statements of issues involved in cases, including appropriate suggestions or recommendations.",23-1012.00,2.375,8,2.0,2,Low-Priority
+19051,Judicial Law Clerks,"Research laws, court decisions, documents, opinions, briefs, or other information related to cases before the court.",23-1012.00,3.0,7,4.0,2,Green
+19047,Judicial Law Clerks,"Draft or proofread judicial opinions, decisions, or citations.",23-1012.00,2.4285714285714284,7,4.0,2,Red
+19052,Judicial Law Clerks,"Review complaints, petitions, motions, or pleadings that have been filed to determine issues involved or basis for relief.",23-1012.00,2.5,4,3.3333333333333335,3,Low-Priority
+19053,Judicial Law Clerks,Review dockets of pending litigation to ensure adequate progress.,23-1012.00,3.3333333333333335,3,5.0,2,Green
+19057,Judicial Law Clerks,"Enter information into computerized court calendar, filing, or case management systems.",23-1012.00,4.0,5,3.6666666666666665,3,Green
+19054,Judicial Law Clerks,"Verify that all files, complaints, or other papers are available and in the proper order.",23-1012.00,3.0,4,2.5,2,Yellow
+19056,Judicial Law Clerks,Coordinate judges' meeting and appointment schedules.,23-1012.00,3.3333333333333335,3,3.3333333333333335,3,Yellow
+5663,"Business Teachers, Postsecondary","Evaluate and grade students' class work, assignments, and papers.",25-1011.00,3.5555555555555554,9,3.3333333333333335,3,Yellow
+5666,"Business Teachers, Postsecondary","Maintain student attendance records, grades, and other required records.",25-1011.00,3.6666666666666665,9,4.0,3,Green
+5664,"Business Teachers, Postsecondary","Compile, administer, and grade examinations, or assign this work to others.",25-1011.00,3.7777777777777777,9,2.3333333333333335,3,Yellow
+5669,"Business Teachers, Postsecondary",Maintain regularly scheduled office hours to advise and assist students.,25-1011.00,3.6,10,2.6666666666666665,3,Yellow
+5673,"Business Teachers, Postsecondary",Collaborate with colleagues to address teaching and research issues.,25-1011.00,2.888888888888889,9,2.0,2,Low-Priority
+5671,"Business Teachers, Postsecondary",Advise students on academic and vocational curricula and career issues.,25-1011.00,3.4,10,2.5,2,Yellow
+20058,"Business Teachers, Postsecondary",Develop and maintain course Web sites.,25-1011.00,3.2,10,3.3333333333333335,3,Yellow
+22409,Librarians and Media Collections Specialists,"Review and evaluate materials, using book reviews, catalogs, faculty recommendations, and current holdings to select and order print, audio-visual, and electronic resources.",25-4022.00,2.625,8,4.0,2,Red
+22411,Librarians and Media Collections Specialists,"Search standard reference materials, including online sources and the Internet, to answer patrons' reference questions.",25-4022.00,2.3333333333333335,6,4.0,3,Red
+22410,Librarians and Media Collections Specialists,"Keep up-to-date records of circulation and materials, maintain inventory, and correct cataloging errors.",25-4022.00,2.7142857142857144,7,3.0,2,Low-Priority
+22416,Librarians and Media Collections Specialists,"Code, classify, and catalog books, publications, films, audio-visual aids, and other library materials, based on subject matter or standard library classification systems.",25-4022.00,1.6666666666666667,6,3.0,2,Low-Priority
+22417,Librarians and Media Collections Specialists,"Respond to customer complaints, taking action as necessary.",25-4022.00,3.75,4,4.5,2,Green
+22420,Librarians and Media Collections Specialists,Locate unusual or unique information in response to specific requests.,25-4022.00,1.8,5,3.0,3,Low-Priority
+22425,Librarians and Media Collections Specialists,"Develop, maintain, and troubleshoot information access aids, such as databases, annotated bibliographies, Web pages, electronic pathfinders, software programs, and online tutorials.",25-4022.00,3.25,4,4.0,2,Green
+22427,Librarians and Media Collections Specialists,"Compile lists of books, periodicals, articles, and audio-visual materials on particular subjects.",25-4022.00,2.0,4,3.3333333333333335,3,Low-Priority
+22430,Librarians and Media Collections Specialists,Arrange for interlibrary loans of materials not available in a particular library.,25-4022.00,3.3333333333333335,3,3.5,2,Green
+288,Art Directors,Present final layouts to clients for approval.,27-1011.00,2.4285714285714284,7,1.5,4,Low-Priority
+286,Art Directors,"Manage own accounts and projects, working within budget and scheduling requirements.",27-1011.00,2.857142857142857,7,2.0,4,Low-Priority
+284,Art Directors,"Formulate basic layout design or presentation approach and specify material details, such as style and size of type, photographs, graphics, animation, video, and sound.",27-1011.00,2.5,8,2.0,4,Low-Priority
+285,Art Directors,"Review and approve art materials, copy materials, and proofs of printed copy developed by staff members.",27-1011.00,3.1666666666666665,6,2.6666666666666665,6,Yellow
+294,Art Directors,Create custom illustrations or other graphic elements.,27-1011.00,2.625,8,3.0,4,Low-Priority
+292,Art Directors,Review illustrative material to determine if it conforms to standards and specifications.,27-1011.00,2.4,5,2.3333333333333335,6,Low-Priority
+20242,Art Directors,"Research current trends and new technology, such as printing production techniques, computer software, and design trends.",27-1011.00,3.0,7,2.0,4,Yellow
+295,Art Directors,"Mark up, paste, and complete layouts and write typography instructions to prepare materials for typesetting or printing.",27-1011.00,3.6666666666666665,3,2.0,6,Yellow
+307,Graphic Designers,Key information into computer equipment to create layouts for client or supervisor.,27-1024.00,1.6666666666666667,3,4.0,3,Red
+304,Graphic Designers,"Review final layouts and suggest improvements, as needed.",27-1024.00,1.7142857142857142,7,3.6666666666666665,3,Red
+300,Graphic Designers,"Determine size and arrangement of illustrative material and copy, and select style and size of type.",27-1024.00,2.3333333333333335,9,3.3333333333333335,3,Low-Priority
+306,Graphic Designers,"Develop graphics and layouts for product illustrations, company logos, and Web sites.",27-1024.00,1.8888888888888888,9,3.0,2,Low-Priority
+299,Graphic Designers,"Create designs, concepts, and sample layouts, based on knowledge of layout principles and esthetic design concepts.",27-1024.00,1.7777777777777777,9,3.0,3,Low-Priority
+301,Graphic Designers,Use computer software to generate new images.,27-1024.00,2.142857142857143,7,3.3333333333333335,3,Low-Priority
+303,Graphic Designers,"Draw and print charts, graphs, illustrations, and other artwork, using computer.",27-1024.00,2.888888888888889,9,2.5,2,Low-Priority
+309,Graphic Designers,"Study illustrations and photographs to plan presentation of materials, products, or services.",27-1024.00,2.4,5,3.6666666666666665,3,Red
+15228,Graphic Designers,"Maintain archive of images, photos, or previous work products.",27-1024.00,2.4,5,4.0,2,Red
+308,Graphic Designers,"Prepare illustrations or rough sketches of material, discussing them with clients or supervisors and making necessary changes.",27-1024.00,1.7142857142857142,7,2.6666666666666665,3,Low-Priority
+15229,Graphic Designers,Research new software or design concepts.,27-1024.00,2.8333333333333335,6,3.3333333333333335,3,Low-Priority
+22522,Producers and Directors,"Research production topics using the internet, video archives, and other informational sources.",27-2012.00,2.888888888888889,9,3.6666666666666665,3,Red
+22523,Producers and Directors,"Review film, recordings, or rehearsals to ensure conformance to production and broadcast standards.",27-2012.00,3.0,7,2.3333333333333335,3,Yellow
+22519,Producers and Directors,Study and research scripts to determine how they should be directed.,27-2012.00,2.5714285714285716,7,2.5,2,Low-Priority
+22532,Producers and Directors,"Perform management activities, such as budgeting, scheduling, planning, and marketing.",27-2012.00,3.375,8,2.3333333333333335,3,Yellow
+22527,Producers and Directors,Conduct meetings with staff to discuss production progress and to ensure production objectives are attained.,27-2012.00,2.0,7,3.0,2,Low-Priority
+22528,Producers and Directors,"Compile scripts, program notes, and other material related to productions.",27-2012.00,3.4,5,2.3333333333333335,3,Yellow
+22539,Producers and Directors,Write and submit proposals to bid on contracts for projects.,27-2012.00,2.3333333333333335,6,2.3333333333333335,3,Low-Priority
+22533,Producers and Directors,Compose and edit scripts or provide screenwriters with story outlines from which scripts can be written.,27-2012.00,2.5,4,2.0,2,Low-Priority
+22535,Producers and Directors,Cut and edit film or tape to integrate component parts into desired sequences.,27-2012.00,1.75,4,2.6666666666666665,3,Low-Priority
+22537,Producers and Directors,Review film daily to check on work in progress and to plan for future filming.,27-2012.00,2.2,5,2.3333333333333335,3,Low-Priority
+22529,Producers and Directors,"Perform administrative duties, such as preparing operational reports, distributing rehearsal call sheets and script copies, and arranging for rehearsal quarters.",27-2012.00,3.8,5,2.0,3,Yellow
+3897,Media Technical Directors/Managers,Observe pictures through monitors and direct camera and video staff concerning shading and composition.,27-2012.05,2.0,5,1.6666666666666667,3,Low-Priority
+3896,Media Technical Directors/Managers,Monitor broadcasts to ensure that programs conform to station or network policies and regulations.,27-2012.05,2.8,5,2.3333333333333335,3,Low-Priority
+3906,Media Technical Directors/Managers,Collaborate with promotions directors to produce on-air station promotions.,27-2012.05,2.125,8,2.0,3,Low-Priority
+3900,Media Technical Directors/Managers,Schedule use of studio and editing facilities for producers and engineering and maintenance staff.,27-2012.05,2.75,8,3.0,2,Low-Priority
+3894,Media Technical Directors/Managers,"Direct technical aspects of newscasts and other productions, checking and switching between video sources and taking responsibility for the on-air product, including camera shots and graphics.",27-2012.05,2.25,4,2.0,3,Low-Priority
+3905,Media Technical Directors/Managers,"Set up and execute video transitions and special effects, such as fades, dissolves, cuts, keys, and supers, using computers to manipulate pictures as necessary.",27-2012.05,2.0,7,3.0,2,Low-Priority
+22623,"News Analysts, Reporters, and Journalists","Write commentaries, columns, or scripts, using computers.",27-3023.00,2.375,8,3.5,2,Red
+22625,"News Analysts, Reporters, and Journalists","Examine news items of local, national, and international significance to determine topics to address, or obtain assignments from editorial staff members.",27-3023.00,2.0,5,3.0,2,Low-Priority
+22626,"News Analysts, Reporters, and Journalists",Analyze and interpret news and information received from various sources to broadcast the information.,27-3023.00,2.2,5,3.3333333333333335,3,Low-Priority
+22628,"News Analysts, Reporters, and Journalists",Research a story's background information to provide complete and accurate information.,27-3023.00,2.0,4,3.0,3,Low-Priority
+22631,"News Analysts, Reporters, and Journalists","Select material most pertinent to presentation, and organize this material into appropriate formats.",27-3023.00,2.8,5,3.5,2,Red
+22635,"News Analysts, Reporters, and Journalists",Revise work to meet editorial approval or to fit time or space requirements.,27-3023.00,2.4285714285714284,7,3.0,3,Low-Priority
+22636,"News Analysts, Reporters, and Journalists",Review and evaluate notes taken about news events to isolate pertinent facts and details.,27-3023.00,2.0,4,3.0,3,Low-Priority
+22638,"News Analysts, Reporters, and Journalists","Review written, audio, or video copy, and correct errors in content, grammar, or punctuation, following prescribed editorial style and formatting guidelines.",27-3023.00,2.8,5,4.333333333333333,3,Red
+22642,"News Analysts, Reporters, and Journalists","Check reference materials, such as books, news files, or public records, to obtain relevant facts.",27-3023.00,4.0,5,3.3333333333333335,3,Yellow
+22648,"News Analysts, Reporters, and Journalists","Develop ideas or material for columns or commentaries by analyzing and interpreting news, current issues, or personal experiences.",27-3023.00,2.6666666666666665,3,3.3333333333333335,3,Low-Priority
+1764,Public Relations Specialists,Respond to requests for information from the media or designate an appropriate spokesperson or information source.,27-3031.00,2.6,5,2.6666666666666665,3,Low-Priority
+23951,Public Relations Specialists,Post and update content on the company's Web site and social media outlets.,27-3031.00,3.125,8,3.0,2,Yellow
+20554,Public Relations Specialists,Write press releases or other media communications to promote clients.,27-3031.00,2.75,8,3.3333333333333335,3,Low-Priority
+1769,Public Relations Specialists,"Study the objectives, promotional policies, or needs of organizations to develop public relations strategies that will influence public opinion or promote ideas, products, or services.",27-3031.00,2.0,4,2.0,3,Low-Priority
+20557,Public Relations Specialists,"Prepare or edit organizational publications, such as employee newsletters or stockholders' reports, for internal or external audiences.",27-3031.00,3.25,4,2.0,2,Yellow
+1777,Editors,"Read copy or proof to detect and correct errors in spelling, punctuation, and syntax.",27-3041.00,2.3,10,3.0,3,Low-Priority
+1780,Editors,"Verify facts, dates, and statistics, using standard reference sources.",27-3041.00,2.4,10,4.333333333333333,3,Red
+1786,Editors,"Read, evaluate and edit manuscripts or other materials submitted for publication, and confer with authors regarding changes in content, style or organization, or publication.",27-3041.00,1.8888888888888888,9,2.3333333333333335,3,Low-Priority
+1782,Editors,"Develop story or content ideas, considering reader or audience appeal.",27-3041.00,2.0,9,2.3333333333333335,3,Low-Priority
+1776,Editors,"Prepare, rewrite and edit copy to improve readability, or supervise others who do this work.",27-3041.00,2.5,10,2.3333333333333335,3,Low-Priority
+1783,Editors,"Oversee publication production, including artwork, layout, computer typesetting, and printing, ensuring adherence to deadlines and budget requirements.",27-3041.00,2.3333333333333335,9,2.0,3,Low-Priority
+21000,Editors,"Write text, such as stories, articles, editorials, or newsletters.",27-3041.00,1.6,10,3.0,2,Low-Priority
+1779,Editors,"Plan the contents of publications according to the publication's style, editorial policy, and publishing requirements.",27-3041.00,1.6666666666666667,6,3.5,2,Red
+1781,Editors,Review and approve proofs submitted by composing room prior to publication production.,27-3041.00,2.375,8,2.3333333333333335,3,Low-Priority
+1785,Editors,"Assign topics, events and stories to individual writers or reporters for coverage.",27-3041.00,1.8,5,2.3333333333333335,3,Low-Priority
+1778,Editors,"Allocate print space for story text, photos, and illustrations according to space parameters and copy significance, using knowledge of layout principles.",27-3041.00,1.75,4,2.6666666666666665,3,Low-Priority
+3966,Technical Writers,"Organize material and complete writing assignment according to set standards regarding order, clarity, conciseness, style, and terminology.",27-3042.00,3.625,8,3.0,2,Yellow
+3967,Technical Writers,Maintain records and files of work and revisions.,27-3042.00,2.75,8,3.0,3,Low-Priority
+3968,Technical Writers,"Edit, standardize, or make changes to material prepared by other writers or establishment personnel.",27-3042.00,2.0,8,2.6666666666666665,3,Low-Priority
+3971,Technical Writers,"Select photographs, drawings, sketches, diagrams, and charts to illustrate material.",27-3042.00,2.5,4,2.6666666666666665,3,Low-Priority
+20243,Technical Writers,Develop or maintain online help documentation.,27-3042.00,2.2857142857142856,7,3.0,3,Low-Priority
+3975,Technical Writers,"Arrange for typing, duplication, and distribution of material.",27-3042.00,4.0,5,2.0,3,Yellow
+3977,Technical Writers,Analyze developments in specific field to determine need for revisions in previously published materials and development of new material.,27-3042.00,2.25,4,4.333333333333333,3,Red
+3970,Technical Writers,"Review published materials and recommend revisions or changes in scope, format, content, and methods of reproduction and binding.",27-3042.00,2.3333333333333335,3,4.5,2,Red
+22655,Writers and Authors,Vary language and tone of messages based on product and medium.,27-3043.00,2.6,10,4.5,2,Red
+22654,Writers and Authors,Present drafts and ideas to clients.,27-3043.00,2.375,8,3.0,2,Low-Priority
+22660,Writers and Authors,"Review advertising trends, consumer surveys, and other data regarding marketing of goods and services to determine the best way to promote products.",27-3043.00,3.0,4,4.0,2,Green
+22657,Writers and Authors,"Write articles, bulletins, sales letters, speeches, and other related informative, marketing and promotional material.",27-3043.00,2.125,8,4.5,2,Red
+22658,Writers and Authors,Conduct research and interviews to determine which of a product's selling features should be promoted.,27-3043.00,3.6666666666666665,3,3.5,2,Green
+20558,Photographers,"Transfer photographs to computers for editing, archiving, and electronic transmission.",27-4021.00,3.7,10,4.0,2,Green
+9352,Photographers,"Manipulate and enhance scanned or digital images to create desired effects, using computers and specialized software.",27-4021.00,2.3333333333333335,9,5.0,2,Red
+9357,Photographers,"Enhance, retouch, and resize photographs and negatives, using airbrushing and other techniques.",27-4021.00,2.7,10,5.0,2,Red
+9351,Photographers,"Estimate or measure light levels, distances, and numbers of exposures needed, using measuring devices and formulas.",27-4021.00,2.5555555555555554,9,4.5,2,Red
+9354,Photographers,"Perform general office duties, such as scheduling appointments, keeping books, and ordering supplies.",27-4021.00,3.3,10,4.0,2,Green
+9350,Photographers,Review sets of photographs to select the best work.,27-4021.00,2.1,10,3.0,2,Low-Priority
+20560,Photographers,Write photograph captions.,27-4021.00,3.125,8,5.0,2,Green
+17242,Radiologists,Prepare comprehensive interpretive reports of findings.,29-1224.00,3.0,4,2.5,2,Yellow
+17254,Radiologists,"Perform or interpret the outcomes of diagnostic imaging procedures including magnetic resonance imaging (MRI), computer tomography (CT), positron emission tomography (PET), nuclear cardiology treadmill studies, mammography, or ultrasound.",29-1224.00,2.6666666666666665,9,3.0,2,Low-Priority
+17248,Radiologists,"Document the performance, interpretation, or outcomes of all procedures performed.",29-1224.00,4.0,7,2.5,2,Yellow
+17239,Radiologists,Review or transmit images and information using picture archiving or communications systems.,29-1224.00,3.888888888888889,9,3.0,2,Yellow
+17249,Radiologists,Develop or monitor procedures to ensure adequate quality control of images.,29-1224.00,3.6,5,2.0,2,Yellow
+17234,Radiologists,Participate in continuing education activities to maintain and develop expertise.,29-1224.00,2.0,9,2.5,2,Low-Priority
+17231,Radiologists,Participate in quality improvement activities including discussions of areas where risk of error is high.,29-1224.00,2.625,8,2.0,2,Low-Priority
+9416,Medical Transcriptionists,"Return dictated reports in printed or electronic form for physician's review, signature, and corrections and for inclusion in patients' medical records.",31-9094.00,3.0,7,5.0,1,Green
+9421,Medical Transcriptionists,"Produce medical reports, correspondence, records, patient-care information, statistics, medical research, and administrative material.",31-9094.00,3.125,8,5.0,1,Green
+9414,Medical Transcriptionists,"Review and edit transcribed reports or dictated material for spelling, grammar, clarity, consistency, and proper medical terminology.",31-9094.00,3.142857142857143,7,5.0,1,Green
+9413,Medical Transcriptionists,"Transcribe dictation for a variety of medical reports, such as patient histories, physical examinations, emergency room visits, operations, chart reviews, consultation, or discharge summaries.",31-9094.00,3.6,5,5.0,1,Green
+9415,Medical Transcriptionists,"Distinguish between homonyms and recognize inconsistencies and mistakes in medical terms, referring to dictionaries, drug references, and other sources on anatomy, physiology, and medicine.",31-9094.00,3.2,5,4.0,1,Green
+9423,Medical Transcriptionists,"Set up and maintain medical files and databases, including records such as x-ray, lab, and procedure reports, medical histories, diagnostic workups, admission and discharge summaries, and clinical resumes.",31-9094.00,3.2857142857142856,7,5.0,1,Green
+9417,Medical Transcriptionists,Translate medical jargon and abbreviations into their expanded forms to ensure the accuracy of patient and health care facility records.,31-9094.00,3.142857142857143,7,5.0,1,Green
+9420,Medical Transcriptionists,"Perform data entry and data retrieval services, providing data for inclusion in medical records and for transmission to physicians.",31-9094.00,2.8333333333333335,6,5.0,1,Red
+23193,"Securities, Commodities, and Financial Services Sales Agents",Monitor markets or positions.,41-3031.00,3.3333333333333335,6,3.5,2,Green
+23195,"Securities, Commodities, and Financial Services Sales Agents",Keep accurate records of transactions.,41-3031.00,3.0,7,4.0,2,Green
+23197,"Securities, Commodities, and Financial Services Sales Agents",Complete sales order tickets and submit for processing of client-requested transactions.,41-3031.00,2.2,5,4.5,2,Red
+23205,"Securities, Commodities, and Financial Services Sales Agents",Review all securities transactions to ensure accuracy of information and conformance to governing agency regulations.,41-3031.00,2.5,4,4.5,2,Red
+23208,"Securities, Commodities, and Financial Services Sales Agents","Track and analyze factors that affect price movement, such as trade policies, weather conditions, political developments, or supply and demand changes.",41-3031.00,3.0,4,5.0,2,Green
+23209,"Securities, Commodities, and Financial Services Sales Agents","Inform other traders, managers, or customers of market conditions, including volume, price, competition, or dynamics.",41-3031.00,3.75,4,4.0,2,Green
+23213,"Securities, Commodities, and Financial Services Sales Agents",Calculate costs for billings or commissions.,41-3031.00,3.4285714285714284,7,4.0,2,Green
+23214,"Securities, Commodities, and Financial Services Sales Agents",Prepare financial reports to monitor client or corporate finances.,41-3031.00,3.6,5,4.5,2,Green
+737,Travel Agents,Collect payment for transportation and accommodations from customer.,41-3041.00,3.1,10,5.0,2,Green
+741,Travel Agents,"Plan, describe, arrange, and sell itinerary tour packages and promotional travel incentives offered by various travel carriers.",41-3041.00,2.3,10,5.0,2,Red
+738,Travel Agents,"Converse with customer to determine destination, mode of transportation, travel dates, financial considerations, and accommodations required.",41-3041.00,2.3,10,3.0,2,Low-Priority
+739,Travel Agents,"Compute cost of travel and accommodations, using calculator, computer, carrier tariff books, and hotel rate books, or quote package tour's costs.",41-3041.00,2.888888888888889,9,5.0,2,Red
+20900,Travel Agents,"Record and maintain information on clients, vendors, and travel packages.",41-3041.00,3.3,10,5.0,2,Green
+740,Travel Agents,"Book transportation and hotel reservations, using computer or telephone.",41-3041.00,2.2,10,5.0,2,Red
+743,Travel Agents,"Print or request transportation carrier tickets, using computer printer system or system link to travel carrier.",41-3041.00,4.0,3,4.5,2,Green
+742,Travel Agents,"Provide customer with brochures and publications containing travel information, such as local customs, points of interest, or foreign country regulations.",41-3041.00,3.5,10,4.5,2,Green
+20608,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",Prepare and submit sales contracts for orders.,41-4011.00,3.5555555555555554,9,4.5,2,Green
+11241,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products","Maintain customer records, using automated systems.",41-4011.00,3.5555555555555554,9,4.5,2,Green
+11237,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products","Answer customers' questions about products, prices, availability, or credit terms.",41-4011.00,2.1,10,4.5,2,Red
+11238,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products","Quote prices, credit terms, or other bid specifications.",41-4011.00,2.5,10,2.0,2,Low-Priority
+11261,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products","Compute customer's installation or production costs and estimate savings from new services, products, or equipment.",41-4011.00,2.6666666666666665,9,4.0,2,Red
+11246,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",Prepare sales presentations or proposals to explain product specifications or applications.,41-4011.00,3.2,10,1.5,2,Yellow
+11252,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products","Complete expense reports, sales reports, or other paperwork.",41-4011.00,4.111111111111111,9,5.0,2,Green
+11249,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products","Inform customers of estimated delivery schedules, service contracts, warranties, or other information pertaining to purchased products.",41-4011.00,2.7,10,5.0,2,Red
+11245,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products","Collaborate with colleagues to exchange information, such as selling strategies or marketing information.",41-4011.00,2.4444444444444446,9,2.0,2,Low-Priority
+20619,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",Verify accuracy of materials lists.,41-4011.00,2.6,10,3.0,2,Low-Priority
+20620,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",Verify customer credit ratings.,41-4011.00,2.7777777777777777,9,5.0,2,Red
+19826,"Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",Present information to customers about the energy efficiency or environmental impact of scientific or technical products.,41-4011.00,3.1,10,4.5,2,Green
+4621,Telemarketers,"Obtain customer information such as name, address, and payment method, and enter orders into computers.",41-9041.00,3.4,5,4.5,2,Green
+4620,Telemarketers,"Explain products or services and prices, and answer questions from customers.",41-9041.00,2.625,8,4.0,2,Red
+4622,Telemarketers,"Record names, addresses, purchases, and reactions of prospects contacted.",41-9041.00,3.25,4,5.0,2,Green
+4618,Telemarketers,"Deliver prepared sales talks, reading from scripts that describe products or services, to persuade potential customers to purchase a product or service or to make a donation.",41-9041.00,2.5,8,3.0,2,Low-Priority
+4623,Telemarketers,Adjust sales scripts to better target the needs and interests of specific individuals.,41-9041.00,3.0,3,4.5,2,Green
+4628,Telemarketers,Schedule appointments for sales representatives to meet with prospective customers or for customers to attend sales presentations.,41-9041.00,3.0,3,4.0,2,Green
+2487,"Bookkeeping, Accounting, and Auditing Clerks","Operate computers programmed with accounting software to record, store, and analyze information.",43-3031.00,2.7,10,4.5,2,Red
+2486,"Bookkeeping, Accounting, and Auditing Clerks","Check figures, postings, and documents for correct entry, mathematical accuracy, and proper codes.",43-3031.00,3.3,10,4.0,2,Green
+2495,"Bookkeeping, Accounting, and Auditing Clerks","Operate 10-key calculators, typewriters, and copy machines to perform calculations and produce documents.",43-3031.00,3.0,7,2.0,2,Yellow
+2493,"Bookkeeping, Accounting, and Auditing Clerks",Code documents according to company procedures.,43-3031.00,3.0,4,5.0,2,Green
+2497,"Bookkeeping, Accounting, and Auditing Clerks","Perform financial calculations, such as amounts due, interest charges, balances, discounts, equity, and principal.",43-3031.00,3.4,10,5.0,2,Green
+2496,"Bookkeeping, Accounting, and Auditing Clerks",Reconcile or note and report discrepancies found in records.,43-3031.00,2.8,10,5.0,2,Red
+2494,"Bookkeeping, Accounting, and Auditing Clerks",Access computerized financial information to answer general questions as well as those related to specific accounts.,43-3031.00,2.625,8,4.5,2,Red
+2490,"Bookkeeping, Accounting, and Auditing Clerks","Classify, record, and summarize numerical and financial data to compile and keep financial records, using journals and ledgers or computers.",43-3031.00,3.0,9,4.0,2,Green
+2489,"Bookkeeping, Accounting, and Auditing Clerks","Debit, credit, and total accounts on computer spreadsheets and databases, using specialized accounting software.",43-3031.00,2.75,8,5.0,2,Red
+2509,"Bookkeeping, Accounting, and Auditing Clerks","Match order forms with invoices, and record the necessary information.",43-3031.00,2.857142857142857,7,5.0,2,Red
+18561,"Bookkeeping, Accounting, and Auditing Clerks",Prepare and process payroll information.,43-3031.00,3.5,6,5.0,2,Green
+2501,"Bookkeeping, Accounting, and Auditing Clerks","Calculate and prepare checks for utilities, taxes, and other payments.",43-3031.00,4.0,6,4.5,2,Green
+2503,"Bookkeeping, Accounting, and Auditing Clerks",Reconcile records of bank transactions.,43-3031.00,3.75,4,4.0,2,Green
+2491,"Bookkeeping, Accounting, and Auditing Clerks","Calculate, prepare, and issue bills, invoices, account statements, and other financial statements according to established procedures.",43-3031.00,3.0,3,4.333333333333333,3,Green
+2519,Payroll and Timekeeping Clerks,"Verify attendance, hours worked, and pay adjustments, and post information onto designated records.",43-3051.00,3.4444444444444446,9,4.0,2,Green
+2515,Payroll and Timekeeping Clerks,Process and issue employee paychecks and statements of earnings and deductions.,43-3051.00,3.8333333333333335,6,4.5,2,Green
+2516,Payroll and Timekeeping Clerks,"Compute wages and deductions, and enter data into computers.",43-3051.00,3.4285714285714284,7,5.0,2,Green
+18562,Payroll and Timekeeping Clerks,Process paperwork for new employees and enter employee information into the payroll system.,43-3051.00,3.4285714285714284,7,5.0,2,Green
+2528,Payroll and Timekeeping Clerks,"Prepare and balance period-end reports, and reconcile issued payrolls to bank statements.",43-3051.00,2.0,5,5.0,2,Red
+2518,Payroll and Timekeeping Clerks,"Review time sheets, work charts, wage computation, and other information to detect and reconcile payroll discrepancies.",43-3051.00,3.142857142857143,7,5.0,2,Green
+2520,Payroll and Timekeeping Clerks,"Record employee information, such as exemptions, transfers, and resignations, to maintain and update payroll records.",43-3051.00,4.0,3,4.666666666666667,3,Green
+2521,Payroll and Timekeeping Clerks,Issue and record adjustments to pay related to previous errors or retroactive increases.,43-3051.00,4.6,5,4.5,2,Green
+18563,Payroll and Timekeeping Clerks,"Keep track of leave time, such as vacation, personal, and sick leave, for employees.",43-3051.00,3.6,5,4.5,2,Green
+2517,Payroll and Timekeeping Clerks,"Compile employee time, production, and payroll data from time sheets and other records.",43-3051.00,3.2,5,4.5,2,Green
+2522,Payroll and Timekeeping Clerks,Keep informed about changes in tax and deduction laws that apply to the payroll process.,43-3051.00,4.0,3,4.0,2,Green
+2524,Payroll and Timekeeping Clerks,Complete time sheets showing employees' arrival and departure times.,43-3051.00,3.3333333333333335,3,5.0,2,Green
+18564,Payroll and Timekeeping Clerks,Conduct verifications of employment.,43-3051.00,3.75,4,3.5,2,Green
+23269,"Court, Municipal, and License Clerks",Record and edit the minutes of meetings and distribute to appropriate officials or staff members.,43-4031.00,2.5,4,4.5,2,Red
+23270,"Court, Municipal, and License Clerks","Question applicants to obtain required information, such as name, address, or age, and record data on prescribed forms.",43-4031.00,3.0,9,4.0,2,Green
+23271,"Court, Municipal, and License Clerks",Issue public notification of all official activities or meetings.,43-4031.00,2.5,4,4.5,2,Red
+23272,"Court, Municipal, and License Clerks",Record and maintain all vital and fiscal records and accounts.,43-4031.00,3.2,5,4.0,2,Green
+23278,"Court, Municipal, and License Clerks","Record case dispositions, court orders, or arrangements made for payment of court fees.",43-4031.00,3.4,5,4.0,2,Green
+23273,"Court, Municipal, and License Clerks","Answer questions or provide advice to the public regarding licensing policies, procedures, or regulations.",43-4031.00,2.1666666666666665,6,3.0,2,Low-Priority
+23274,"Court, Municipal, and License Clerks",Prepare meeting agendas or packets of related information.,43-4031.00,2.0,3,4.666666666666667,3,Red
+23288,"Court, Municipal, and License Clerks","Answer inquiries from the general public regarding judicial procedures, court appearances, trial dates, adjournments, outstanding warrants, summonses, subpoenas, witness fees, or payment of fines.",43-4031.00,2.2857142857142856,7,3.5,2,Red
+23281,"Court, Municipal, and License Clerks",Prepare documents recording the outcomes of court proceedings.,43-4031.00,2.5,4,4.5,2,Red
+23275,"Court, Municipal, and License Clerks","Prepare and issue orders of the court, such as probation orders, release documentation, sentencing information, or summonses.",43-4031.00,3.5,4,4.0,2,Green
+23283,"Court, Municipal, and License Clerks","Perform general office duties, such as taking or transcribing dictation, typing or proofreading correspondence, distributing or filing official forms, or scheduling appointments.",43-4031.00,2.8333333333333335,6,3.5,2,Red
+23290,"Court, Municipal, and License Clerks",Instruct parties about timing of court appearances.,43-4031.00,4.333333333333333,3,4.5,2,Green
+2578,Customer Service Representatives,"Keep records of customer interactions or transactions, recording details of inquiries, complaints, or comments, as well as actions taken.",43-4051.00,2.7,10,4.666666666666667,3,Red
+2580,Customer Service Representatives,Check to ensure that appropriate changes were made to resolve customers' problems.,43-4051.00,2.2,10,4.5,2,Red
+2581,Customer Service Representatives,Contact customers to respond to inquiries or to notify them of claim investigation results or any planned adjustments.,43-4051.00,2.8,10,4.5,2,Red
+2583,Customer Service Representatives,"Determine charges for services requested, collect deposits or payments, or arrange for billing.",43-4051.00,3.3,10,4.5,2,Green
+2584,Customer Service Representatives,"Complete contract forms, prepare change of address records, or issue service discontinuance orders, using computers.",43-4051.00,2.9,10,4.0,2,Red
+2582,Customer Service Representatives,Refer unresolved customer grievances to designated departments for further investigation.,43-4051.00,2.7,10,3.0,2,Low-Priority
+2579,Customer Service Representatives,"Resolve customers' service or billing complaints by performing activities such as exchanging merchandise, refunding money, or adjusting bills.",43-4051.00,2.7,10,4.0,2,Red
+2587,Customer Service Representatives,Review insurance policy terms to determine whether a particular loss is covered by insurance.,43-4051.00,2.857142857142857,7,5.0,2,Red
+2589,Customer Service Representatives,Compare disputed merchandise with original requisitions and information from invoices and prepare invoices for returned goods.,43-4051.00,3.2,10,4.5,2,Green
+2585,Customer Service Representatives,"Obtain and examine all relevant information to assess validity of complaints and to determine possible causes, such as extreme weather conditions that could increase utility bills.",43-4051.00,3.3,10,4.0,2,Green
+2591,Customer Service Representatives,"Recommend improvements in products, packaging, shipping, service, or billing methods and procedures to prevent future problems.",43-4051.00,2.4,10,4.0,2,Red
+9739,"Eligibility Interviewers, Government Programs","Keep records of assigned cases, and prepare required reports.",43-4061.00,3.1666666666666665,6,4.0,3,Green
+9736,"Eligibility Interviewers, Government Programs","Compile, record, and evaluate personal and financial data to verify completeness and accuracy, and to determine eligibility status.",43-4061.00,2.75,4,3.5,2,Red
+9735,"Eligibility Interviewers, Government Programs","Initiate procedures to grant, modify, deny, or terminate assistance, or refer applicants to other agencies for assistance.",43-4061.00,2.5,4,3.5,2,Red
+9741,"Eligibility Interviewers, Government Programs","Prepare applications and forms for applicants for such purposes as school enrollment, employment, and medical services.",43-4061.00,3.5,4,4.333333333333333,3,Green
+9758,Reservation and Transportation Ticket Agents and Travel Clerks,Examine passenger documentation to determine destinations and to assign boarding passes.,43-4181.00,3.2857142857142856,7,3.0,1,Yellow
+9762,Reservation and Transportation Ticket Agents and Travel Clerks,"Trace lost, delayed, or misdirected baggage for customers.",43-4181.00,1.5,4,2.0,1,Low-Priority
+9754,Reservation and Transportation Ticket Agents and Travel Clerks,"Determine whether space is available on travel dates requested by customers, assigning requested spaces when available.",43-4181.00,2.7777777777777777,9,4.0,1,Red
+9753,Reservation and Transportation Ticket Agents and Travel Clerks,"Assemble and issue required documentation, such as tickets, travel insurance policies, or itineraries.",43-4181.00,2.6666666666666665,6,2.0,1,Low-Priority
+9756,Reservation and Transportation Ticket Agents and Travel Clerks,Maintain computerized inventories of available passenger space and provide information on space reserved or available.,43-4181.00,3.7142857142857144,7,5.0,1,Green
+9755,Reservation and Transportation Ticket Agents and Travel Clerks,"Inform clients of essential travel information, such as travel times, transportation connections, or medical and visa requirements.",43-4181.00,3.125,8,3.0,1,Yellow
+9752,Reservation and Transportation Ticket Agents and Travel Clerks,"Answer inquiries regarding information, such as schedules, accommodations, procedures, or policies.",43-4181.00,2.6,10,4.0,1,Red
+9749,Reservation and Transportation Ticket Agents and Travel Clerks,"Plan routes, itineraries, and accommodation details, and compute fares and fees, using schedules, rate books, and computers.",43-4181.00,2.1666666666666665,6,3.0,1,Low-Priority
+9751,Reservation and Transportation Ticket Agents and Travel Clerks,Prepare customer invoices and accept payment.,43-4181.00,2.625,8,3.0,1,Low-Priority
+9766,Reservation and Transportation Ticket Agents and Travel Clerks,"Provide customers with travel suggestions and information sources, such as guides, directories, brochures, or maps.",43-4181.00,2.25,8,4.0,1,Red
+9767,Reservation and Transportation Ticket Agents and Travel Clerks,Contact customers or travel agents to advise them of travel conveyance changes or to confirm reservations.,43-4181.00,1.6666666666666667,3,4.0,1,Red
+2705,Public Safety Telecommunicators,"Determine response requirements and relative priorities of situations, and dispatch units in accordance with established procedures.",43-5031.00,3.8333333333333335,6,2.6666666666666665,3,Yellow
+2706,Public Safety Telecommunicators,"Record details of calls, dispatches, and messages.",43-5031.00,4.0,3,4.0,2,Green
+2717,Public Safety Telecommunicators,Read and effectively interpret small-scale maps and information from a computer screen to determine locations and provide directions.,43-5031.00,4.0,4,4.0,2,Green
+2712,Public Safety Telecommunicators,"Maintain access to, and security of, highly sensitive materials.",43-5031.00,2.5,6,3.0,4,Low-Priority
+2714,Public Safety Telecommunicators,"Maintain files of information relating to emergency calls, such as personnel rosters and emergency call-out and pager files.",43-5031.00,4.666666666666667,3,3.3333333333333335,3,Yellow
+11370,"Production, Planning, and Expediting Clerks",Distribute production schedules or work orders to departments.,43-5061.00,3.142857142857143,7,2.75,4,Yellow
+11363,"Production, Planning, and Expediting Clerks","Review documents, such as production schedules, work orders, or staffing tables, to determine personnel or materials requirements or material priorities.",43-5061.00,2.7,10,2.75,4,Low-Priority
+11368,"Production, Planning, and Expediting Clerks",Requisition and maintain inventories of materials or supplies necessary to meet production demands.,43-5061.00,2.9,10,2.0,4,Low-Priority
+11375,"Production, Planning, and Expediting Clerks","Plan production commitments or timetables for business units, specific programs, or jobs, using sales forecasts.",43-5061.00,3.2857142857142856,7,2.6666666666666665,3,Yellow
+11371,"Production, Planning, and Expediting Clerks","Compile information, such as production rates and progress, materials inventories, materials used, or customer information, so that status reports can be completed.",43-5061.00,3.2857142857142856,7,4.0,2,Green
+11377,"Production, Planning, and Expediting Clerks","Compile and prepare documentation related to production sequences, transportation, personnel schedules, or purchase, maintenance, or repair orders.",43-5061.00,3.3333333333333335,6,4.0,2,Green
+11369,"Production, Planning, and Expediting Clerks","Calculate figures, such as required amounts of labor or materials, manufacturing costs, or wages, using pricing schedules, adding machines, calculators, or computers.",43-5061.00,3.0,5,2.75,4,Yellow
+11373,"Production, Planning, and Expediting Clerks",Contact suppliers to verify shipment details.,43-5061.00,3.3333333333333335,6,2.5,4,Yellow
+11367,"Production, Planning, and Expediting Clerks","Record production data, including volume produced, consumption of raw materials, or quality control measures.",43-5061.00,3.25,4,4.5,2,Green
+11376,"Production, Planning, and Expediting Clerks","Establish and prepare product construction directions and locations and information on required tools, materials, equipment, numbers of workers needed, and cost projections.",43-5061.00,2.3333333333333335,3,2.0,4,Low-Priority
+11374,"Production, Planning, and Expediting Clerks","Maintain files, such as maintenance records, bills of lading, or cost reports.",43-5061.00,2.6666666666666665,3,3.25,4,Low-Priority
+768,Legal Secretaries and Administrative Assistants,"Organize and maintain law libraries, documents, and case files.",43-6012.00,2.4,10,2.3333333333333335,3,Low-Priority
+18780,Legal Secretaries and Administrative Assistants,Prepare and distribute invoices to bill clients or pay account expenses.,43-6012.00,3.3,10,4.0,2,Green
+21078,Legal Secretaries and Administrative Assistants,"Prepare, proofread, or process legal documents, such as summonses, subpoenas, complaints, appeals, motions, or pretrial agreements.",43-6012.00,2.3,10,3.5,2,Red
+774,Legal Secretaries and Administrative Assistants,"Complete various forms, such as accident reports, trial and courtroom requests, and applications for clients.",43-6012.00,2.4,10,2.6666666666666665,3,Low-Priority
+766,Legal Secretaries and Administrative Assistants,Schedule and make appointments.,43-6012.00,3.6,10,4.5,2,Green
+771,Legal Secretaries and Administrative Assistants,Draft and type office memos.,43-6012.00,1.9,10,3.5,2,Red
+773,Legal Secretaries and Administrative Assistants,Submit articles and information from searches to attorneys for review and approval for use.,43-6012.00,3.5,8,3.0,2,Yellow
+21079,Legal Secretaries and Administrative Assistants,Make travel arrangements for attorneys.,43-6012.00,3.9,10,4.0,2,Green
+775,Medical Secretaries and Administrative Assistants,"Schedule and confirm patient diagnostic appointments, surgeries, or medical consultations.",43-6013.00,2.5714285714285716,7,2.0,2,Low-Priority
+788,Medical Secretaries and Administrative Assistants,Complete insurance or other claim forms.,43-6013.00,3.0,3,3.3333333333333335,3,Yellow
+783,Medical Secretaries and Administrative Assistants,"Transmit correspondence or medical records by mail, e-mail, or fax.",43-6013.00,3.4285714285714284,7,3.0,3,Yellow
+781,Medical Secretaries and Administrative Assistants,"Maintain medical records, technical library, or correspondence files.",43-6013.00,2.125,8,3.0,2,Low-Priority
+778,Medical Secretaries and Administrative Assistants,"Receive and route messages or documents, such as laboratory results, to appropriate staff.",43-6013.00,3.8,5,3.6666666666666665,3,Green
+782,Medical Secretaries and Administrative Assistants,"Operate office equipment, such as voice mail messaging systems, and use word processing, spreadsheet, or other software applications to prepare reports, invoices, financial statements, letters, case histories, or medical records.",43-6013.00,3.111111111111111,9,2.3333333333333335,3,Yellow
+784,Medical Secretaries and Administrative Assistants,"Perform various clerical or administrative functions, such as ordering and maintaining an inventory of supplies.",43-6013.00,3.8333333333333335,6,1.6666666666666667,3,Yellow
+786,Medical Secretaries and Administrative Assistants,Transcribe recorded messages or practitioners' diagnoses or recommendations into patients' medical records.,43-6013.00,3.6666666666666665,3,3.5,2,Green
+776,Medical Secretaries and Administrative Assistants,"Compile and record medical charts, reports, or correspondence, using typewriter or personal computer.",43-6013.00,2.5,6,4.0,2,Red
+20438,Medical Secretaries and Administrative Assistants,"Schedule tests or procedures for patients, such as lab work or x-rays, based on physician orders.",43-6013.00,3.3333333333333335,6,4.0,2,Green
+20281,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive","Create, maintain, and enter information into databases.",43-6014.00,3.111111111111111,9,3.5,2,Green
+20280,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive","Use computers for various applications, such as database management or word processing.",43-6014.00,2.1818181818181817,11,2.3333333333333335,3,Low-Priority
+20282,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive","Set up and manage paper or electronic filing systems, recording information, updating paperwork, or maintaining documents, such as attendance records, correspondence, or other material.",43-6014.00,3.0,10,4.0,3,Green
+2813,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive","Operate electronic mail systems and coordinate the flow of information, internally or with other organizations.",43-6014.00,2.2857142857142856,7,3.0,2,Low-Priority
+2801,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive","Schedule and confirm appointments for clients, customers, or supervisors.",43-6014.00,2.4444444444444446,9,4.5,2,Red
+2800,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",Maintain scheduling and event calendars.,43-6014.00,2.5,10,3.3333333333333335,3,Low-Priority
+20284,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive","Compose, type, and distribute meeting notes, routine correspondence, or reports, such as presentations or expense, statistical, or monthly reports.",43-6014.00,2.3,10,2.0,3,Low-Priority
+2795,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",Complete forms in accordance with company procedures.,43-6014.00,2.5,8,2.0,3,Low-Priority
+2793,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",Locate and attach appropriate files to incoming correspondence requiring replies.,43-6014.00,2.5,8,2.6666666666666665,3,Low-Priority
+2805,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive","Conduct searches to find needed information, using such sources as the Internet.",43-6014.00,2.5454545454545454,11,3.0,3,Low-Priority
+2794,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive","Open, read, route, and distribute incoming mail or other materials and answer routine letters.",43-6014.00,2.4444444444444446,9,4.5,2,Red
+2797,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive","Review work done by others to check for correct spelling and grammar, ensure that company format policies are followed, and recommend revisions.",43-6014.00,2.142857142857143,7,4.333333333333333,3,Red
+20285,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive","Perform payroll functions, such as maintaining timekeeping information and processing and submitting payroll.",43-6014.00,2.3333333333333335,3,3.0,2,Low-Priority
+2809,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",Establish work procedures or schedules and keep track of the daily work of clerical staff.,43-6014.00,1.6666666666666667,3,2.0,3,Low-Priority
+2806,"Secretaries and Administrative Assistants, Except Legal, Medical, and Executive","Provide services to customers, such as order placement or account information.",43-6014.00,2.6,5,2.6666666666666665,3,Low-Priority
+11405,Data Entry Keyers,"Locate and correct data entry errors, or report them to supervisors.",43-9021.00,3.25,8,4.0,2,Green
+11402,Data Entry Keyers,"Compile, sort, and verify the accuracy of data before it is entered.",43-9021.00,3.0,8,4.0,3,Green
+11403,Data Entry Keyers,"Compare data with source documents, or re-enter data in verification format to detect errors.",43-9021.00,3.5,6,4.0,2,Green
+11404,Data Entry Keyers,Store completed documents in appropriate locations.,43-9021.00,4.333333333333333,6,3.0,3,Yellow
+11401,Data Entry Keyers,"Read source documents such as canceled checks, sales reports, or bills, and enter data in specific data fields or onto tapes or disks for subsequent entry, using keyboards or scanners.",43-9021.00,4.0,5,3.6666666666666665,3,Green
+11406,Data Entry Keyers,Maintain logs of activities and completed work.,43-9021.00,4.25,4,3.6666666666666665,3,Green
+2816,Desktop Publishers,"Operate desktop publishing software and equipment to design, lay out, and produce camera-ready copy.",43-9031.00,2.6666666666666665,6,4.5,2,Red
+2820,Desktop Publishers,"Position text and art elements from a variety of databases in a visually appealing way to design print or web pages, using knowledge of type styles and size and layout patterns.",43-9031.00,2.7142857142857144,7,3.0,2,Low-Priority
+2815,Desktop Publishers,Check preliminary and final proofs for errors and make necessary corrections.,43-9031.00,3.2222222222222223,9,3.5,2,Green
+2817,Desktop Publishers,"View monitors for visual representation of work in progress and for instructions and feedback throughout process, making modifications as necessary.",43-9031.00,2.75,4,2.5,2,Low-Priority
+2818,Desktop Publishers,"Enter text into computer keyboard and select the size and style of type, column width, and appropriate spacing for printed materials.",43-9031.00,3.5714285714285716,7,3.0,3,Yellow
+2824,Desktop Publishers,"Prepare sample layouts for approval, using computer software.",43-9031.00,2.857142857142857,7,3.0,2,Low-Priority
+2823,Desktop Publishers,"Import text and art elements, such as electronic clip art or electronic files from photographs that have been scanned or produced with a digital camera, using computer software.",43-9031.00,2.875,8,4.0,2,Red
+2825,Desktop Publishers,Study layout or other design instructions to determine work to be done and sequence of operations.,43-9031.00,3.4,5,4.0,2,Green
+2829,Desktop Publishers,Select number of colors and determine color separations.,43-9031.00,3.6666666666666665,3,4.0,2,Green
+2827,Desktop Publishers,"Convert various types of files for printing or for the Internet, using computer software.",43-9031.00,4.5,4,4.5,2,Green
+2821,Desktop Publishers,"Enter digitized data into electronic prepress system computer memory, using scanner, camera, keyboard, or mouse.",43-9031.00,4.0,4,3.3333333333333335,3,Yellow
+2822,Desktop Publishers,"Edit graphics and photos, using pixel or bitmap editing, airbrushing, masking, or image retouching.",43-9031.00,2.857142857142857,7,4.0,2,Red
+23313,Insurance Claims and Policy Processing Clerks,"Prepare insurance claim forms or related documents, and review them for completeness.",43-9041.00,3.1,10,4.0,2,Green
+23314,Insurance Claims and Policy Processing Clerks,Calculate amount of claim.,43-9041.00,2.9,10,3.0,3,Low-Priority
+23315,Insurance Claims and Policy Processing Clerks,Post or attach information to claim file.,43-9041.00,2.5,10,3.0,2,Low-Priority
+23316,Insurance Claims and Policy Processing Clerks,Transmit claims for payment or further investigation.,43-9041.00,2.8,10,3.0,3,Low-Priority
+23318,Insurance Claims and Policy Processing Clerks,Review insurance policy to determine coverage.,43-9041.00,3.0,10,3.5,2,Green
+23319,Insurance Claims and Policy Processing Clerks,Process and record new insurance policies and claims.,43-9041.00,1.9,10,3.0,3,Low-Priority
+23320,Insurance Claims and Policy Processing Clerks,"Organize or work with detailed office or warehouse records, using computers to enter, access, search or retrieve data.",43-9041.00,3.5,10,4.0,2,Green
+23322,Insurance Claims and Policy Processing Clerks,Correspond with insured or agent to obtain information or to inform them of account status or changes.,43-9041.00,2.4,10,2.3333333333333335,3,Low-Priority
+23323,Insurance Claims and Policy Processing Clerks,"Review and verify data, such as age, name, address, and principal sum and value of property, on insurance applications and policies.",43-9041.00,3.1818181818181817,11,4.5,2,Green
+23324,Insurance Claims and Policy Processing Clerks,"Compare information from application to criteria for policy reinstatement, and approve reinstatement when criteria are met.",43-9041.00,3.0,3,4.0,2,Green
+23325,Insurance Claims and Policy Processing Clerks,"Examine letters from policyholders or agents, original insurance applications, and other company documents to determine if changes are needed and effects of changes.",43-9041.00,3.0,7,4.0,2,Green
+23326,Insurance Claims and Policy Processing Clerks,"Transcribe data to worksheets, and enter data into computer for use in preparing documents and adjusting accounts.",43-9041.00,2.6666666666666665,3,3.0,2,Low-Priority
+23329,Insurance Claims and Policy Processing Clerks,"Process, prepare, and submit business or government forms, such as submitting applications for coverage to insurance carriers.",43-9041.00,2.3333333333333335,3,3.5,2,Red
+23333,Insurance Claims and Policy Processing Clerks,"Obtain computer printout of policy cancellations, or retrieve cancellation cards from file.",43-9041.00,3.0,4,4.0,2,Green
+23334,Insurance Claims and Policy Processing Clerks,"Compose business correspondence for supervisors, managers, and professionals.",43-9041.00,3.3333333333333335,6,3.5,2,Green
+5160,Proofreaders and Copy Markers,Read corrected copies or proofs to ensure that all corrections have been made.,43-9081.00,2.857142857142857,7,4.0,3,Red
+5158,Proofreaders and Copy Markers,"Correct or record omissions, errors, or inconsistencies found.",43-9081.00,2.1666666666666665,6,5.0,2,Red
+5161,Proofreaders and Copy Markers,"Compare information or figures on one record against same data on other records, or with original copy, to detect errors.",43-9081.00,2.7142857142857144,7,3.6666666666666665,3,Red
+5163,Proofreaders and Copy Markers,"Route proofs with marked corrections to authors, editors, typists, or typesetters for correction or reprinting.",43-9081.00,2.3333333333333335,9,5.0,2,Red
+20908,Proofreaders and Copy Markers,"Archive documents, conduct research, and read copy, using the internet and various computer programs.",43-9081.00,2.6,5,4.5,2,Red
+12301,Power Distributors and Dispatchers,"Control, monitor, or operate equipment that regulates or distributes electricity or steam, using data obtained from instruments or computers.",51-8012.00,3.0,4,2.0,1,Yellow
+12306,Power Distributors and Dispatchers,"Track conditions that could affect power needs, such as changes in the weather, and adjust equipment to meet any anticipated changes.",51-8012.00,3.0,3,3.0,1,Yellow
