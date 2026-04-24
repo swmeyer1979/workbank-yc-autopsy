@@ -7,3 +7,5 @@ data/raw/.cache/
 node_modules/
 .next/
 .vercel/
+data/raw/site_cache/
+data/processed/site_texts.jsonl
