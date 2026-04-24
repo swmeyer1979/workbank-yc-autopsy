@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "cp ../findings.md ./findings.md",
+    "prebuild": "node -e \"const fs=require('fs');const p='./findings.md';if(!fs.existsSync(p)){const u='https://raw.githubusercontent.com/swmeyer1979/workbank-yc-autopsy/master/findings.md';fetch(u).then(r=>r.text()).then(t=>fs.writeFileSync(p,t)).catch(e=>{console.error(e);process.exit(1)})}\"",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
