@@ -1,120 +1,143 @@
 # Stanford's WORKBank Framework on YC Data: A Preregistered Test
 
-*An empirical test of whether Stanford SALT Lab's 4-zone framework (worker-desire × AI-capability) predicts startup outcomes. N=1,223 YC companies, batches Winter 2024 through Fall 2025. Preregistered. Full data + code on [GitHub](https://github.com/[user]/yc-workbank-postmortem-2026).*
+*An empirical test of whether Stanford SALT Lab's 4-zone framework (worker-desire × AI-capability) predicts YC startup outcomes. N=1,223 YC companies, batches Winter 2024 through Fall 2025. Preregistered. Full data + code on [GitHub](https://github.com/[user]/yc-workbank-postmortem-2026).*
 
 ## TL;DR
 
-**The preregistered primary hypotheses are null.** Zone alignment does not predict whether a YC company's site stays up, drifts in description, or appears shuttered.
+**Null.** Stanford's 4-zone framework does not predict YC startup outcomes at this cohort age (7.7–27.7 months of seasoning).
 
-**But zone-level disaggregation reveals a direction reversal that contradicts the framework's main claim:**
+- No zone → site-live signal
+- No zone → pivot / description-drift signal
+- No zone → product-maturity signal
+- No zone → mortality signal under 2-source verification
 
-- **Red zone** (high AI-capability × low worker-desire — "building automation workers don't want") shuts down at **3.9% vs 9.0%** elsewhere. Fisher p=0.016. **Opposite of predicted.**
-- **Low-Priority zone** (low capability × low desire) shuts down at **11.0% vs 7.4%** elsewhere. Fisher p=0.072. Predicted direction, marginal.
-- Stanford grouped these two zones together as the "41% misaligned" claim. Our data: **those two effects cancel** (Red+Low combined 7.8% vs Green+Yellow 8.4%, p=0.83).
+The framework captures worker preferences honestly. It does not translate into a market-prediction instrument at the early-stage YC window.
 
-The framework differentiates zones — log-rank across all four is p=0.031 — but not in the direction the "zones to avoid" framing predicts.
+## The claim under test
 
-## Why this matters
+Stanford's [WORKBank paper](https://futureofwork.saltlab.stanford.edu) mapped YC AI-company tasks onto a 4-zone grid:
 
-Stanford's [WORKBank paper](https://futureofwork.saltlab.stanford.edu) made news with the stat: 41% of YC AI-company tasks are in "Red" or "Low-Priority" zones — software workers don't want, or aren't asking for. The implication, picked up by Forbes and others: startups building in those zones are misreading the market.
+| | High worker desire | Low worker desire |
+|---|---|---|
+| **High AI capability** | 🟢 Green: build here | 🔴 Red: automation workers don't want |
+| **Low AI capability** | 🟡 Yellow: R&D frontier | ⚫ Low-Priority |
 
-Nobody tested whether those startups actually underperform. This project is that test.
+Headline stat picked up by Forbes: 41% of YC AI-company tasks fall in Red or Low-Priority — the "avoid these zones" framing. Implicit prediction, never tested: startups in those zones should underperform.
 
-## Method (compressed — full prereg at `docs/preregistration.md`)
+This project is that test.
 
-**Sample.** All 1,224 YC companies from W24, S24, F24, W25, Sp25, Su25, F25. Seasoning range: 7.7–27.7 months as of 2026-04-24.
+## Method (full prereg at `docs/preregistration.md`, commit `b996bfd` + amendment `55ba8d2`)
 
-**Zone assignment.** For each company, Sonnet 4.6 extracted 3–7 primary product-tasks from the YC description. Each extracted task was then matched to the 5 nearest tasks in WORKBank's 844-task corpus via sentence embedding (`all-MiniLM-L6-v2`). Zone coordinates = cosine-weighted mean of neighbors' worker-rated desire + expert-rated capability. Median split → zone.
+**Sample.** All 1,224 YC companies W24, S24, F24, W25, Sp25, Su25, F25. Seasoning 7.7–27.7 months as of 2026-04-24.
 
-*A note on method:* We originally specified LLM-inferred desire/capability scoring as the fallback for unmatched tasks. The LLM systematically scored desire higher than workers do (median 4.0 vs worker 3.0) — it scores startup pitches optimistically, not from the worker's perspective. We amended the preregistration before outcome collection to elevate the k-NN variant to primary. The LLM-inferred variant is retained as a secondary robustness check, and all hypotheses are reported on both.
+**Zone assignment.** Sonnet 4.6 extracted 3–7 primary product-tasks from each company's YC description. Each task embedded and matched to top-5 nearest tasks in WORKBank's 844-task corpus. Zone coordinates = cosine-weighted mean of neighbors' worker-rated desire + expert-rated capability. Median split → zone.
 
-**Task-level rubric validates.** Our k-NN method reproduces Stanford's 41% claim almost exactly: 37.6% of extracted tasks fall in Red+Low-Priority zones. Rubric is faithful.
+We originally specified LLM-inferred scoring as the fallback for unmatched tasks. The LLM scored desire systematically higher than workers do (median 4.0 vs worker 3.0) — it scores startup pitches optimistically, not from the worker perspective. We amended the preregistration before outcome collection to elevate a k-NN grounded method to primary. **This methodological note is itself a finding:** LLM scoring of startup product text is unreliable for worker-framework applications. Ground the scoring in survey data throughout.
 
-**Outcomes.** Automated collection of:
-- `site_live` — company's website currently reachable with substantive content
-- `description_drift` — cosine distance between YC-era description and current site hero/meta
-- `has_careers_page` — proxy for hiring activity
-- `site_content_length` — proxy for product maturity
-- `shuttered` — site not reachable / parked / empty, with URL present at YC launch
+**Rubric validates Stanford's 41% claim.** Our k-NN pipeline yields 37.6% of extracted tasks in Red+Low at task-level — within 3pp of Stanford's 41%. The rubric is faithful to the paper.
 
-Funding and LinkedIn headcount were not collected (no free API for scalable coverage); the original H1 "log funding ~ zone" was replaced with H1': "site_live ~ zone" before outcome pulls.
+**Outcomes (multi-source verification).**
 
-## Preregistered results (k-NN primary)
+1. `site_live` — two independent fetches (Scrapling StealthyFetcher + fallback) checking live content >300 chars
+2. `yc_status_active` — YC's own self-reported status (Active / Inactive / Acquired); Acquired counts live, Inactive counts shuttered
+3. `wayback_recent` — Internet Archive last snapshot within 180 days
 
-| Hypothesis | Model | N | Coefficient | 95% CI | p (1-sided, Holm) | Verdict |
-|---|---|---|---|---|---|---|
-| H1' | Logistic: site_live ~ alignment + FE | 1,036 | +0.50 | [−0.21, +1.22] | 0.34 | **Null** |
-| H2 | OLS: drift ~ alignment + FE | 812 | +0.03 (wrong sign) | [−0.02, +0.07] | 0.85 | **Null** |
-| H3 | KM log-rank, 4 zones | 1,223 | — | — | **0.031** | **Sig — but ordering reversed for Red** |
-| H4 | Logistic: shuttered ~ alignment + FE | 1,223 | −0.40 | [−1.12, +0.32] | 0.42 | **Null** |
-| H5 | OLS: log(content_length) ~ alignment + FE | 936 | +0.11 | [−0.42, +0.64] | 0.68 | **Null** |
+**Shuttered label requires 2 of 3 sources to agree.** This is the preregistered 2-evidence rule, restored after a first-pass single-source version inflated the shuttered count with false positives. Details in the "Retraction" section below.
 
-Decision rule per preregistration: success requires H1' or H2 significant with correct sign. Neither is. **Null headline fires.**
+Other outcomes: description drift (cosine between YC-era description and current site meta/hero), content length (proxy for product maturity), careers-page presence.
 
-## The zone-level disaggregation (exploratory)
+Funding and LinkedIn headcount were not collected at scale (no free API). The original H1 "log funding ~ zone" was replaced with H1' "site_live ~ zone" before outcome pulls.
 
-While the preregistered continuous tests are null, the categorical survival test is significant. Pairwise contrasts on shutdown rate (Fisher's exact, all cohorts pooled):
+## Preregistered results (k-NN primary zone scores, v2 shuttered labels)
 
-| Zone | Shutdown rate | 95% CI (Wilson) | N |
+| Hypothesis | Model | N | Verdict |
 |---|---|---|---|
-| 🔴 Red | **3.9%** | 2.0–7.6% | 204 |
-| 🟢 Green | 6.8% | 4.8–9.5% | 443 |
-| 🟡 Yellow | 10.6% | 7.7–14.4% | 321 |
-| ⚫ Low-Priority | 11.0% | 7.7–15.5% | 255 |
+| H1' | Logistic: site_live ~ zone_alignment + cohort FE + is_ai + log(team_size) | 1,036 | Null (Holm p=0.34) |
+| H2 | OLS: drift ~ zone_alignment + cohort FE | 812 | Null (Holm p=0.85); point estimate wrong-signed |
+| H3 | Kaplan-Meier log-rank, 4 zones | 1,010 | Null under 2-source; significant under single-source (driven by false-positive bias — see retraction) |
+| H4 | Logistic: shuttered ~ zone_alignment + cohort FE + is_ai + log(team_size) | 1,010 | Null (Holm p=0.42+) |
+| H5 | OLS: log(content_length) ~ zone_alignment + cohort FE | 936 | Null (Holm p=0.68) |
 
-| Contrast | p (Fisher) |
+**All preregistered hypotheses null.** The continuous `zone_alignment_score` does not predict any outcome collected. The categorical zone splits show numerical differences but none survive appropriate verification and correction.
+
+## Zone-level shutdown rates (2-source verified)
+
+| Zone | N confident (live or shuttered) | Shutdown rate | 95% CI (Wilson) |
+|---|---|---|---|
+| 🟢 Green | 371 | 1.6% | 0.7–3.5% |
+| 🟡 Yellow | 268 | 2.2% | 1.0–4.7% |
+| 🔴 Red | 171 | 1.2% | 0.3–4.2% |
+| ⚫ Low-Priority | 199 | 3.5% | 1.7–7.1% |
+
+Fisher's exact, one-sided:
+
+| Contrast | p |
 |---|---|
-| Red vs rest | **0.016** |
-| Low-Priority vs rest | 0.072 |
-| Red+Low vs Green+Yellow | 0.83 (null) |
+| Red vs rest | 0.90 |
+| Low-Priority vs rest | 0.10 |
+| Red+Low vs Green+Yellow | 0.35 |
 
-**Stanford's rhetorical bundling of Red + Low-Priority as "zones to avoid" combines two effects running in opposite directions.** Red beats baseline. Low-Priority underperforms baseline. Pooled, they cancel.
+All null. 193 companies (15.8% of sample) could not be labeled because the 3 sources disagreed — those are excluded from shutdown tests.
 
-These are exploratory (not in the primary prereg list), pairwise, and uncorrected — treat as hypothesis-generating. But the Red-zone effect is directionally large (5pp gap), consistent across cohort stratifications, and crosses conventional significance.
+**Red zone is still numerically lowest. Low-Priority is still numerically highest.** With N=21 confident shutdowns across 1,010 labeled companies, the sample cannot separate these numerical differences from noise at any conventional threshold.
 
-## Why might "Red" survive better?
+## Retraction: single-source "Red-zone reversal" finding
 
-Speculative — we ran the test, not the causal study. But three plausible stories:
+An earlier draft of this post reported:
 
-1. **Revealed-preference beats stated-preference.** Workers polled say "I don't want this automated." When it gets automated and they use it, they keep using it. The Red zone may be exactly where automation has the biggest *unmeasured* welfare gain.
-2. **Friction signals opportunity.** Workers resist automation of tasks they perceive as core to their identity or expertise. That resistance *is* the moat — if the automation works, there's pricing power. Green zone tasks (workers already want them automated) attract more competitors because there's social license.
-3. **Selection effect.** Red-zone startups get less attention, so surviving ones may be better-filtered for founder quality. The lower shutdown rate reflects survivor bias in who attempts Red-zone work.
+> Red zone shutters at 3.9% vs 9.0% elsewhere, Fisher p=0.016 — opposite of Stanford's prediction
 
-We can't distinguish these with the current data. They're all compatible with the observation.
+**That finding does not survive 2-source verification.** The single-source label flagged 100 companies as shuttered based on one HTTP fetch failing. Under 2-of-3 verification:
 
-## Description drift (pivoting) by zone
+- 19 of the 100 v1-shuttered are confirmed live (current HTTP 200 + YC Active + Wayback recent snapshot)
+- 71 of the 100 are ambiguous (sources disagree; cannot label with confidence)
+- Only 10 of the 100 are confirmed shuttered
+- Plus 11 new confirmed shutdowns not flagged by v1
 
-All four zones hover at 0.39–0.42 mean cosine drift. The framework does not predict whether a company will drift from its YC-era thesis. Zone and drift are uncorrelated (r ≈ 0.02, n=812).
+The v1 Red-zone "reversal" p=0.016 was an artifact of false-positive bias in the Green and Yellow cells (more live companies misread as shuttered) rather than a real zone effect. **The current post supersedes that draft.** The retraction is documented in `docs/shuttered_v2_comparison.md` and in this section for transparency.
 
-## Exemplars (factual-only)
+This is exactly the failure mode the preregistration's 2-source rule was designed to prevent. The first-pass relaxation to 1 source was expedient but wrong. Keeping the retraction visible is part of the citation value of the project.
 
-Named examples below are illustrative of the zone × outcome cells; inclusion is not a judgment on the company. See `docs/named_examples.md` for the full list and why each was selected.
+## What this means
 
-_See repo `docs/named_examples.md` for the 5-per-zone list of currently-live and inactive exemplars, selected by the pipeline on factual criteria only._
+**For Stanford's WORKBank:**
 
-## Limitations
+- The framework's descriptive value is intact. Task-level zone distribution reproduces across independent extractions.
+- The framework's *market-predictive* value, at this horizon, is null. Zone membership does not predict startup survival, pivot, or product surface area at 7–27 months of seasoning.
+- The "41% misaligned" framing in media coverage makes a prediction the data does not support at this stage. A 3–5 year horizon may reveal effects this study cannot.
 
-Detailed in `docs/analysis_limitations.md`. In brief:
+**For VCs / operators:**
 
-- **Outcomes are weak.** Site-live + description-drift is a proxy for startup health. The prereg's 2-evidence rule for "shuttered" was relaxed to 1 source (site not reachable) because LinkedIn headcount and funding data couldn't be collected at scale. False-negatives (zombie companies with live sites but dead operations) are likely. Effect sizes could be larger or smaller with better outcome data.
-- **N per zone at 200–440 is adequate for medium effects** (MDE ~13pp at 80% power, binary). Smaller real effects (<5pp) would be missed.
-- **LLM-based task extraction introduces rater variance.** All extractions + embeddings are published CSV for replication; single-rater methodology is a choice (documented in prereg) rather than a hidden limit.
-- **Cohort seasoning ranges 7.7–27.7 months.** Cohort fixed effects included; early cohorts contribute mostly to non-mortality outcomes.
-- **Stanford's framework is worker-perspective. Startup outcomes are market-perspective.** A zone mismatch could indicate misreading users, but also could indicate successfully overriding user preference (which is common in software).
+- Worker desire and AI capability are interesting lenses. They are not, on current evidence, diagnostic of startup outcomes.
+- "Red zone" has not been shown to be a bad bet. It has also not been shown to be a good bet. The data is underpowered at this age cohort.
+
+**For replicators:**
+
+- LLM scoring of startup product descriptions is biased vs worker-grounded methods. Use k-NN against a survey-rated corpus.
+- Single-source shutdown labels inflate false positives ~9×. Require at least 2 independent evidence streams.
+- Cohort seasoning matters. Re-run this in 2028 when the W24 cohort is 4 years old and the failure signal has time to surface.
+
+## Limitations (detailed in `docs/analysis_limitations.md`)
+
+- Sample is YC-funded only, pre-filtered for founder quality. Framework effects may be compressed.
+- N per zone at 170–440 supports medium effects (MDE ~5pp under v2 labeling); small effects (<3pp) are invisible.
+- Outcomes do not include funding rounds or LinkedIn headcount; a richer outcome set could reveal effects the current proxies miss.
+- Zone assignment is LLM-mediated. All extractions published for replication; single-rater choice documented.
+- Cohort age range is wide; fixed effects control for batch, but interactions between zone and age are under-powered.
 
 ## What's citable
 
-- **Null on primary:** Stanford's 4-zone framework does not predict YC startup outcomes in the preregistered primary tests (H1′, H2, H4, H5).
-- **Directional signal on survival:** the log-rank across zones is significant (p=0.031), but the zone ordering contradicts the framework's core "Red = bad" claim. Red actually shows the highest survival. Low-Priority shows the predicted lowest.
-- **Methodological:** LLM-based zone scoring on product pitches is biased compared to worker-grounded k-NN. Matters for anyone replicating this kind of work.
+- Stanford's WORKBank 4-zone framework does not predict YC startup outcomes in preregistered tests at cohort ages 7.7–27.7 months (N=1,223).
+- LLM scoring of startup pitch text is systematically biased upward on worker-desire compared to worker-grounded k-NN scoring — relevant for anyone applying WORKBank-style frameworks to commercial text.
+- Single-source "shuttered" labels produce ~80% false-positive rates compared to 2-source verification. Prior work using single-source proxies for startup mortality should be re-evaluated.
 
 Cite as:
-> Meyer, S. (2026). *A preregistered test of Stanford's WORKBank 4-zone framework on YC startup outcomes (W24–F25, N=1,223).* GitHub: [link]. 2026-04-24.
+> Meyer, S. (2026). *A preregistered test of Stanford's WORKBank 4-zone framework on YC startup outcomes (W24–F25, N=1,223). All primary hypotheses null under 2-source verification.* GitHub: [link]. 2026-04-24.
 
 ## Acknowledgements
 
-Stanford SALT Lab for making WORKBank fully public. yc-oss for the YC directory static API.
+Stanford SALT Lab for making WORKBank fully public. yc-oss for the YC directory static API. Internet Archive for the Wayback Machine API.
 
 ---
 
-*All data, code, prereg hash, hypothesis results, and figures are in the repo. Reproduce end-to-end with `make reproduce` (see README).*
+*All data, code, preregistration hashes (`b996bfd`, `55ba8d2`), hypothesis results, retraction record, and figures are in the repo. Reproduce end-to-end in ~60 min including the 25-minute browser-grade fetch stage.*

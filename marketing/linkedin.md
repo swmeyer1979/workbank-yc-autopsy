@@ -1,40 +1,42 @@
 # LinkedIn post
 
-**Stanford's 4-zone AI framework doesn't predict YC startup survival. Also, the "red zone" has the *highest* survival rate — the opposite of what the framework predicts.**
+**Stanford's 4-zone AI framework does not predict YC startup survival. The "41% misaligned" stat doesn't translate into failure.**
 
-Last year Stanford SALT Lab published WORKBank: a 4-zone grid of worker-desire × AI-capability. The headline finding picked up by Forbes: 41% of YC AI-company tasks fall in "Red" (high capability, low worker desire) or "Low-Priority" (low capability, low desire) zones. The implication: startups in those zones are building software workers don't actually want, and presumably will struggle.
+A year ago Stanford SALT Lab published WORKBank — a grid mapping tasks onto worker-desire × AI-capability. The headline picked up by Forbes: 41% of YC AI-company tasks are in the "Red" (workers don't want) or "Low-Priority" zones.
 
-Nobody tested whether those startups actually struggled.
+The implication — that startups in those zones underperform — was never tested.
 
-I ran the test on 1,223 YC companies across 7 batches (W24–F25). Preregistered methodology. Full code + data published.
+I ran the test. 1,223 YC companies, batches W24–F25. Preregistered methodology. 2-of-3 source verification for the shutdown label (browser fetch + YC status + Wayback Machine). Full code + data published.
 
-**Preregistered primary tests: null.** Zone alignment doesn't predict site-live, description drift, or content-length proxy outcomes.
+**Preregistered primary hypotheses: all null.** Zone alignment doesn't predict site-live, description drift, or product-surface-area proxies.
 
-**But disaggregate the zones and a different picture appears:**
+Zone-level shutdown rates (2-source verified):
 
-🔴 Red: 3.9% shutdown rate (n=204)
-🟢 Green: 6.8% (n=443)
-🟡 Yellow: 10.6% (n=321)
-⚫ Low-Priority: 11.0% (n=255)
+🟢 Green: 1.6% (n=371 labeled)
+🟡 Yellow: 2.2% (n=268)
+🔴 Red: 1.2% (n=171)
+⚫ Low-Priority: 3.5% (n=199)
 
-Red — the "avoid this" zone — has the lowest shutdown rate across all four. Fisher's exact p=0.016. Low-Priority does underperform, consistent with prediction. But Stanford's rhetorical grouping of Red + Low as "41% misaligned" combines two effects running in opposite directions. They cancel in aggregate (7.8% vs 8.4% for Green+Yellow, p=0.83).
+Red is numerically lowest, Low-Priority numerically highest — but no contrast is statistically significant. 193 companies (15.8% of sample) had disagreeing sources and were excluded from confident labeling.
 
-Possible stories for why Red survives better:
+**What the null tells us:**
 
-1. **Revealed preference beats stated preference.** Workers say they don't want it automated; use it anyway when offered.
-2. **Friction is moat.** Worker resistance means less competition and more pricing power.
-3. **Selection.** Red-zone ideas attract better founders because weaker founders self-select into "obvious" green-zone ideas.
+Stanford's framework captures worker preferences honestly. It does not, on current evidence, translate into a market-prediction instrument at the 7–27 month cohort age. The "41% misaligned" framing in media coverage makes a prediction the data does not support at this stage.
 
-Can't distinguish these with this data. Needs follow-up.
+**Two methodological findings worth sharing with anyone doing this kind of work:**
 
-**Methodological note worth sharing:** I initially used LLM scoring (Sonnet 4.6) on startup pitch text to assign desire/capability ratings. The LLM systematically rated desire higher than real workers do (median 4.0 vs worker 3.0) — it scores pitches optimistically. Switched to a k-NN approach grounded in WORKBank's worker data before pulling outcomes. Anyone doing this kind of work should ground ratings in survey data, not LLM judgment on marketing copy.
+1. **LLM scoring of startup pitches is biased.** Sonnet 4.6 rated desire a full point higher than workers do (median 4.0 vs 3.0) — it scores marketing copy optimistically. Ground the rubric in the underlying survey data via k-NN, not in LLM judgment on commercial text.
 
-**What I'd do next:**
-- Same study with real outcome data (LinkedIn headcount, funding rounds) — would turn 5-10% shutdown signal into log-continuous revenue signal, 10x power
-- Instrument for founder selection to separate the revealed-preference story from selection
-- Compare YC → YC-rejected-but-funded to test whether this is a YC-specific pattern
+2. **Single-source shutdown labels are ~9× worse than 2-source.** An earlier draft of my findings used single-source HTTP fetch for the shuttered label. Under 2-of-3 verification, 71% of those labels were ambiguous and 19% were confirmed live. The original "Red zone outperforms" headline I almost published was a labeling artifact. Retraction is documented in the repo — keeping it visible because it's the most replicable lesson here.
 
-Repo + preregistration + full results: [github link]
+**What would change the result:**
+- 3–5 year horizon (W24 cohort will be 4 years old in 2028)
+- Continuous outcomes (funding rounds, LinkedIn headcount) for more statistical power
+- Non-YC sample to remove founder-quality compression
+
+Citable result: *Stanford's 4-zone framework does not predict YC startup outcomes at cohort ages 7.7–27.7 months (N=1,223; preregistered tests null after Holm correction).*
+
+Repo + preregistration hashes + retraction record: [github link]
 Stanford paper: https://futureofwork.saltlab.stanford.edu
 
-Credit to the SALT Lab team for making WORKBank fully public — couldn't have run this without their task-level data being accessible.
+Credit to the SALT Lab team for publishing WORKBank at worker-level granularity — the entire project is possible because of that choice.

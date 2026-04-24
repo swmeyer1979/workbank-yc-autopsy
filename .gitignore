@@ -8,4 +8,5 @@ node_modules/
 .next/
 .vercel/
 data/raw/site_cache/
+data/raw/site_fetch_v2/
 data/processed/site_texts.jsonl
