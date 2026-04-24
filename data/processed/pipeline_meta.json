@@ -1,0 +1,66 @@
+{
+  "01_extract_tasks": {
+    "model": "claude-sonnet-4-6",
+    "model_version_note": "claude-sonnet-4-6 via claude CLI; temperature not exposed in CLI",
+    "n_companies_input": 1224,
+    "n_task_rows": 5938,
+    "n_companies_with_tasks": 1223,
+    "n_companies_ge3_tasks": 1217,
+    "n_skipped_slugs": 1,
+    "batch_size": 50,
+    "run_timestamp": "2026-04-24T18:34:28.727737+00:00"
+  },
+  "02_match_to_workbank": {
+    "model": "claude-sonnet-4-6",
+    "model_version_note": "claude-sonnet-4-6 via claude CLI; temperature not exposed in CLI",
+    "cosine_threshold": 0.7,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "n_extracted_tasks": 5938,
+    "n_workbank_tasks": 844,
+    "n_matched": 24,
+    "n_inferred": 5914,
+    "match_rate_pct": 0.4,
+    "task_zone_distribution": {
+      "Green": 4645,
+      "Yellow": 1030,
+      "Low-Priority": 222,
+      "Red": 41
+    },
+    "run_timestamp": "2026-04-24T19:12:14.440644+00:00"
+  },
+  "03_company_zone_scores": {
+    "n_companies_input": 1224,
+    "n_companies_scored": 1223,
+    "n_low_signal": 483,
+    "zone_alignment_score_min": 0.0,
+    "zone_alignment_score_max": 1.0,
+    "zone_alignment_score_mean": 0.9519,
+    "company_zone_distribution": {
+      "Green": 1012,
+      "Low-Priority": 38,
+      "Red": 6,
+      "Yellow": 167
+    },
+    "source_mix_distribution": {
+      "all_inferred": 1200,
+      "mixed": 22,
+      "all_matched": 1
+    },
+    "run_timestamp": "2026-04-24T19:12:28.270032+00:00"
+  },
+  "knn_sidecar": {
+    "k": 5,
+    "weighting": "cosine_similarity",
+    "embedder": "all-MiniLM-L6-v2",
+    "desire_median_split": 3.0,
+    "capability_median_split": 3.5,
+    "rationale": "LLM-inferred desire biased high (median 4.0 vs WORKBank worker 3.0); k-NN grounds in worker data.",
+    "task_level_red_low_share": 0.3763893566857528,
+    "company_level_zone_counts": {
+      "Green": 443,
+      "Yellow": 321,
+      "Low-Priority": 255,
+      "Red": 204
+    }
+  }
+}

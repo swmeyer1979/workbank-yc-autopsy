@@ -39,6 +39,16 @@ WORKBank CSVs were pulled and task-level zones derived, but no company-to-task m
 5. `zone_category` (categorical, secondary) = modal zone across tasks; ties broken toward Red/Low (biases *against* the thesis).
 6. `zone_source` ∈ {matched, inferred, mixed} logged per task for subset analyses.
 
+### Amendment 2026-04-24 (post-pipeline, pre-outcome): k-NN elevated to primary
+
+After running the pipeline, the LLM-inferred path (originally the primary fallback) produced a systematically biased desire distribution: median 4.00 vs WORKBank worker-rated median 3.00. Root cause: Sonnet 4.6 scores startup *product-pitch* tasks optimistically ("people want this automated" — because the pitch frames it that way), not worker-perspective desire. At company level this collapsed 83% of companies to Green, gutting treatment variance.
+
+k-NN sidecar (`scripts/02b_knn_zone_scoring.py`): for each extracted task, top-5 nearest WORKBank tasks by cosine; zone coords = cosine-weighted mean of neighbors' worker-rated `desire_mean` + expert-rated `capability_mean`. Grounds every task in worker data throughout. Reproduces Stanford's 41% Red+Low claim (k-NN yields 37.6%) and gives real variance at company level: Green 443 / Yellow 321 / Low-Priority 255 / Red 204.
+
+**Primary `zone_alignment_score` (revised): k-NN variant.** LLM-inferred variant retained as secondary/robustness comparator; divergence between the two is itself a substantive finding about framework-to-rater sensitivity. Both variants saved in output CSVs; all H1–H5 tests will be run on both and results reported side-by-side. Decision rules (success/null/reversal) apply to the k-NN primary; LLM-inferred results reported as robustness.
+
+This amendment was committed *before* any outcome data collection. Commit hash of the amendment is the updated prereg anchor.
+
 ## Hypotheses (pre-specified, one-sided)
 
 **H1 (primary, continuous):** `log(post-YC $ raised + 1) ~ zone_alignment_score + cohort_FE + is_ai + log(team_size)`. Coefficient on `zone_alignment_score` > 0 (higher alignment → more funding).
