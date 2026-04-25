@@ -12,16 +12,17 @@ export interface Company {
   zone_alignment_score: number | null;
   zone_category: ZoneCategory | null;
   n_tasks: number | null;
-  site_live: boolean;
-  description_drift_cosine: number | null;
-  shuttered: boolean;
 }
 
 export interface Summary {
   total: number;
-  site_live: number;
-  shuttered: number;
-  mean_drift: number;
   zone_counts: Record<string, number>;
   batches: string[];
+  shutdown_stats_aggregate?: {
+    live: number;
+    shuttered: number;
+    ambiguous: number;
+    no_label: number;
+  };
+  note?: string;
 }

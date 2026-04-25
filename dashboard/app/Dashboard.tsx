@@ -24,24 +24,18 @@ const PAGE_SIZE = 50;
 
 const HEADING = `Stanford's 4-zone framework applied to 1,223 YC companies (W24–F25).
 
-The preregistered primary hypotheses are null.
+All preregistered primary hypotheses: null after Holm correction.
+Zone membership does not predict site-live, pivot, or product-surface outcomes at cohort ages 7.7–27.7 months.
 
-But Red zone companies — "building automation workers don't want" —
-shut down at 3.9% vs 9.0% elsewhere (Fisher p=0.016).
+Earlier draft reported a "Red-zone reversal" (p=0.016); that finding was retracted as a single-source labeling artifact. Full retraction record in /findings.`;
 
-Stanford bundled Red + Low-Priority as "41% misaligned." Those two
-zones move in opposite directions. The bundle hides the signal.`;
+const DASHBOARD_DISCLAIMER = `Per-company shutdown labels are intentionally withheld from this dashboard. Automated web-fetch signals (HTTP liveness, Wayback recency) produce ~80% false positives on commercial SPA sites relative to 2-of-3 source verification. Only aggregate shutdown statistics (see below / findings post) are published. Per-company data includes zone classification and observable YC-directory facts only.`;
 
 type SortKey = keyof Company;
 type SortDir = "asc" | "desc";
 
 function ycUrl(slug: string) {
   return `https://www.ycombinator.com/companies/${slug}`;
-}
-
-function fmt(v: number | null, decimals = 3) {
-  if (v == null) return "—";
-  return v.toFixed(decimals);
 }
 
 function pct(v: number | null) {
@@ -57,7 +51,6 @@ export default function Dashboard() {
   // Filters
   const [batch, setBatch] = useState("All");
   const [zone, setZone] = useState("All");
-  const [status, setStatus] = useState("All");
   const [aiOnly, setAiOnly] = useState(false);
 
   // Sort
@@ -82,11 +75,9 @@ export default function Dashboard() {
     let rows = companies;
     if (batch !== "All") rows = rows.filter((c) => c.batch === batch);
     if (zone !== "All") rows = rows.filter((c) => c.zone_category === zone);
-    if (status === "site-live") rows = rows.filter((c) => c.site_live && !c.shuttered);
-    if (status === "shuttered") rows = rows.filter((c) => c.shuttered);
     if (aiOnly) rows = rows.filter((c) => c.is_ai);
     return rows;
-  }, [companies, batch, zone, status, aiOnly]);
+  }, [companies, batch, zone, aiOnly]);
 
   const sorted = useMemo(() => {
     return [...filtered].sort((a, b) => {
@@ -118,28 +109,19 @@ export default function Dashboard() {
     setPage(1);
   }
 
-  function handleFilterChange() {
-    setPage(1);
-  }
-
   // Summary stats on filtered set
   const stats = useMemo(() => {
     const n = filtered.length;
-    const live = filtered.filter((c) => c.site_live && !c.shuttered).length;
-    const shut = filtered.filter((c) => c.shuttered).length;
-    const drifts = filtered
-      .map((c) => c.description_drift_cosine)
-      .filter((v): v is number => v != null);
-    const meanDrift = drifts.length > 0 ? drifts.reduce((a, b) => a + b, 0) / drifts.length : null;
     const zoneCounts: Record<string, number> = {};
     for (const c of filtered) {
       const z = c.zone_category || "Unknown";
       zoneCounts[z] = (zoneCounts[z] || 0) + 1;
     }
-    return { n, live, shut, meanDrift, zoneCounts };
+    return { n, zoneCounts };
   }, [filtered]);
 
   const batches = summary?.batches ?? [];
+  const shutdownAgg = (summary as unknown as { shutdown_stats_aggregate?: Record<string, number> })?.shutdown_stats_aggregate;
 
   if (loading) {
     return (
@@ -172,14 +154,27 @@ export default function Dashboard() {
       {/* Hero */}
       <div className="hero">
         <h1>YC × WORKBank Postmortem</h1>
-        <div className="finding">{HEADING}</div>
+        <div className="finding" style={{ whiteSpace: "pre-line" }}>{HEADING}</div>
+      </div>
+
+      {/* Disclaimer banner */}
+      <div
+        style={{
+          background: "#fef3c7",
+          border: "1px solid #fbbf24",
+          borderRadius: 6,
+          padding: "12px 16px",
+          margin: "12px 0 24px",
+          fontSize: 13,
+          lineHeight: 1.5,
+          color: "#78350f",
+        }}
+      >
+        <strong>Data caveat:</strong> {DASHBOARD_DISCLAIMER}
       </div>
 
       {/* Filters */}
-      <div
-        className="filters"
-        onChange={handleFilterChange}
-      >
+      <div className="filters">
         <select value={batch} onChange={(e) => { setBatch(e.target.value); setPage(1); }}>
           <option value="All">All batches</option>
           {batches.map((b) => (
@@ -192,12 +187,6 @@ export default function Dashboard() {
           {ZONES.map((z) => (
             <option key={z} value={z}>{z}</option>
           ))}
-        </select>
-
-        <select value={status} onChange={(e) => { setStatus(e.target.value); setPage(1); }}>
-          <option value="All">All statuses</option>
-          <option value="site-live">Site live</option>
-          <option value="shuttered">Shuttered</option>
         </select>
 
         <label>
@@ -213,27 +202,31 @@ export default function Dashboard() {
       {/* Summary strip */}
       <div className="summary-strip">
         <div className="stat-card">
-          <div className="stat-label">Companies</div>
+          <div className="stat-label">Companies in view</div>
           <div className="stat-value">{stats.n.toLocaleString()}</div>
         </div>
-        <div className="stat-card">
-          <div className="stat-label">Site live</div>
-          <div className="stat-value" style={{ color: "var(--green)" }}>
-            {stats.n > 0 ? ((stats.live / stats.n) * 100).toFixed(1) : "—"}%
-          </div>
-        </div>
-        <div className="stat-card">
-          <div className="stat-label">Shuttered</div>
-          <div className="stat-value" style={{ color: "var(--red)" }}>
-            {stats.n > 0 ? ((stats.shut / stats.n) * 100).toFixed(1) : "—"}%
-          </div>
-        </div>
-        <div className="stat-card">
-          <div className="stat-label">Mean drift</div>
-          <div className="stat-value">
-            {stats.meanDrift != null ? stats.meanDrift.toFixed(3) : "—"}
-          </div>
-        </div>
+        {shutdownAgg && (
+          <>
+            <div className="stat-card">
+              <div className="stat-label">Aggregate live (2-of-3 verified)</div>
+              <div className="stat-value" style={{ color: "var(--green)" }}>
+                {shutdownAgg.live.toLocaleString()}
+              </div>
+            </div>
+            <div className="stat-card">
+              <div className="stat-label">Aggregate shuttered</div>
+              <div className="stat-value" style={{ color: "var(--red)" }}>
+                {shutdownAgg.shuttered.toLocaleString()}
+              </div>
+            </div>
+            <div className="stat-card">
+              <div className="stat-label">Aggregate ambiguous</div>
+              <div className="stat-value" style={{ color: "#6b7280" }}>
+                {shutdownAgg.ambiguous.toLocaleString()}
+              </div>
+            </div>
+          </>
+        )}
         <ZoneBarCard counts={stats.zoneCounts} total={stats.n} />
       </div>
 
@@ -245,10 +238,8 @@ export default function Dashboard() {
               <SortTh label="Name" col="name" />
               <SortTh label="Batch" col="batch" />
               <SortTh label="Zone" col="zone_category" />
-              <SortTh label="Alignment" col="zone_alignment_score" />
-              <SortTh label="Live" col="site_live" />
-              <SortTh label="Drift" col="description_drift_cosine" />
-              <SortTh label="Team" col="team_size" />
+              <SortTh label="Alignment score" col="zone_alignment_score" />
+              <SortTh label="Team @ YC" col="team_size" />
               <th>One-liner</th>
             </tr>
           </thead>
@@ -256,15 +247,9 @@ export default function Dashboard() {
             {pageRows.map((c) => (
               <tr key={c.slug}>
                 <td>
-                  {c.website ? (
-                    <a href={ycUrl(c.slug)} target="_blank" rel="noopener noreferrer">
-                      {c.name || c.slug}
-                    </a>
-                  ) : (
-                    <a href={ycUrl(c.slug)} target="_blank" rel="noopener noreferrer">
-                      {c.name || c.slug}
-                    </a>
-                  )}
+                  <a href={ycUrl(c.slug)} target="_blank" rel="noopener noreferrer">
+                    {c.name || c.slug}
+                  </a>
                 </td>
                 <td style={{ whiteSpace: "nowrap", color: "var(--text-muted)" }}>
                   {c.batch || "—"}
@@ -278,18 +263,6 @@ export default function Dashboard() {
                 </td>
                 <td style={{ fontVariantNumeric: "tabular-nums" }}>
                   {pct(c.zone_alignment_score)}
-                </td>
-                <td>
-                  {c.shuttered ? (
-                    <span className="status-dead" title="Shuttered">✗</span>
-                  ) : c.site_live ? (
-                    <span className="status-live" title="Site live">✓</span>
-                  ) : (
-                    <span style={{ color: "var(--text-muted)" }} title="Unknown">—</span>
-                  )}
-                </td>
-                <td style={{ fontVariantNumeric: "tabular-nums" }}>
-                  {fmt(c.description_drift_cosine)}
                 </td>
                 <td>{c.team_size ?? "—"}</td>
                 <td className="one-liner-cell">
@@ -326,11 +299,14 @@ export default function Dashboard() {
       {/* Footer */}
       <footer className="footer">
         <div className="footer-links">
-          <a href="https://github.com/samm-meyer/yc-workbank-postmortem-2026" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/swmeyer1979/workbank-yc-autopsy" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
           <a href="/findings/">Findings</a>
-          <a href="https://github.com/samm-meyer/yc-workbank-postmortem-2026/commit/HEAD" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/swmeyer1979/workbank-yc-autopsy/blob/master/paper/paper.md" target="_blank" rel="noopener noreferrer">
+            Paper
+          </a>
+          <a href="https://github.com/swmeyer1979/workbank-yc-autopsy/commit/b996bfd" target="_blank" rel="noopener noreferrer">
             Preregistration commit
           </a>
         </div>

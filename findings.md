@@ -98,6 +98,25 @@ The v1 Red-zone "reversal" p=0.016 was an artifact of false-positive bias in the
 
 This is exactly the failure mode the preregistration's 2-source rule was designed to prevent. The first-pass relaxation to 1 source was expedient but wrong. Keeping the retraction visible is part of the citation value of the project.
 
+## Forensic audit: even v2 has ~24% misclassification
+
+After v2 verification yielded 21 shuttered companies, we hand-audited every one (browser-grade HTTP fetch, redirect tracking, body-text measurement, YC status cross-reference). Full table in `docs/forensic_audit_v2.md`.
+
+Across the 21:
+
+- **7 hard-confirmed dead** — 404, DNS failure, or domain redirected to parked/spam page (e.g., `crmcopilot`, `lumona`, `quary`, `mango-health`, `deepsilicon`, `abel`, plus `crouton` SPA shell)
+- **7 probably dead** — YC `Inactive` + tiny SPA shell, no contradicting signal
+- **2 confirmed pivots, live** — `lilac-labs` (drive-thru.ai → lilaclabs.ai), `strike` (tradestrike.app → pluto.trade). Rebranded products, not shutdowns.
+- **3 likely live false positives** — `formula-insight`, `celest`, ambiguous others with rich JS-rendered content
+
+True shutdown count is **7–14, not 21**. Even at v2 grade, ~24% of flagged shutdowns are misclassifications. Three failure modes drive this:
+
+1. Browser-grade HTTP fetch can't render JavaScript — SPAs return small initial HTML and look dead to a non-browser pipeline.
+2. YC's `status` field lags reality. Pivoted/acquired companies may stay marked `Inactive` for months while the new entity is healthy.
+3. Single-domain probes can't follow rebrands. The original YC-listed website redirects to a new domain; the rebrand only resolves with manual lookup.
+
+The null finding is robust to all this. Cell counts are 2–7 shutdowns per zone under v2; tightening to 7 hard-confirmed makes them sparser and the contrasts more solidly null. The framework's predictive validity isn't resolvable at this cohort age regardless of how aggressively the shutdown definition is tightened.
+
 ## What this means
 
 **For Stanford's WORKBank:**

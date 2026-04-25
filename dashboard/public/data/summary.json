@@ -1,8 +1,11 @@
 {
   "total": 1224,
-  "site_live": 937,
-  "shuttered": 100,
-  "mean_drift": 0.408,
+  "shutdown_stats_aggregate": {
+    "live": 989,
+    "shuttered": 21,
+    "ambiguous": 193,
+    "no_label": 21
+  },
   "zone_counts": {
     "Low-Priority": 255,
     "Green": 443,
@@ -18,5 +21,6 @@
     "Summer 2025",
     "Winter 2024",
     "Winter 2025"
-  ]
+  ],
+  "note": "Per-company shutdown labels withheld from public dashboard due to known false-positive rates in automated web-fetch signals. Aggregate shutdown stats provided for transparency; see findings.md for methodology."
 }
